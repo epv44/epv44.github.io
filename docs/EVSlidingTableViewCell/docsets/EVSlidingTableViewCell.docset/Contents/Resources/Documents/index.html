@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>EVSlidingTableViewCell  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a title="EVSlidingTableViewCell  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html">EVSlidingTableViewCell Docs</a> (100% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html">EVSlidingTableViewCell Reference</a>
+        <img id="carat" src="img/carat.png" />
+        EVSlidingTableViewCell  Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/EVOverlayView.html">EVOverlayView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/SlidingTableViewControllerCell.html">SlidingTableViewControllerCell</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Protocols/SlidingTableViewCellDelegate.html">SlidingTableViewCellDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/UIViewLoading.html">UIViewLoading</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Structs.html">Structs</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Structs/DrawerViewOption.html">DrawerViewOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/EVConstants.html">EVConstants</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            
+            <a href='#evslidingtableviewcell' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h1 id='evslidingtableviewcell'>EVSlidingTableViewCell</h1>
+
+<p><a href="https://travis-ci.org/epv44/EVSlidingTableViewCell"><img src="https://api.travis-ci.org/epv44/EVSlidingTableViewCell.svg" alt="CI Status"></a>
+<a href="http://cocoapods.org/pods/EVSlidingTableViewCell"><img src="https://img.shields.io/cocoapods/v/EVSlidingTableViewCell.svg?style=flat" alt="Version"></a>
+<a href="http://cocoapods.org/pods/EVSlidingTableViewCell"><img src="https://img.shields.io/cocoapods/l/EVSlidingTableViewCell.svg?style=flat" alt="License"></a>
+<a href="http://cocoapods.org/pods/EVSlidingTableViewCell"><img src="https://img.shields.io/cocoapods/p/EVSlidingTableViewCell.svg?style=flat" alt="Platform"></a></p>
+<a href='#about' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='about'>About</h2>
+
+<p>EVSlidingTableViewCell is a custom UITableViewCell that implements the <q>slide to reveal</q> functionality similar to GChat.  It supports between 1 and 4 configurable action buttons that are revealed as the user defined overlay is slid away.</p>
+
+<p><img src="https://raw.githubusercontent.com/epv44/EVSlidingTableViewCell/master/SlidingTableViewCell.gif" alt="Screenshot0"></p>
+<a href='#usage' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='usage'>Usage</h2>
+
+<p>To run the sample project, clone the repo, and run <code>pod install</code> from the Example directory.</p>
+<a href='#requirements' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='requirements'>Requirements</h2>
+
+<ul>
+<li>Swift 3.0+</li>
+<li>iOS 9.0+</li>
+</ul>
+<a href='#installation' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='installation'>Installation</h2>
+
+<p>EVSlidingTableViewCell is available through <a href="http://cocoapods.org">CocoaPods</a>. To install
+it, simply add the following line to your Podfile:</p>
+<pre class="highlight ruby"><code><span class="n">pod</span> <span class="s2">"EVSlidingTableViewCell"</span>
+</code></pre>
+
+<p>Also include</p>
+<pre class="highlight ruby"><code><span class="n">user_frameworks!</span>
+</code></pre>
+<a href='#getting-started' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='getting-started'>Getting Started</h2>
+<a href='#1-create-the-overlay-view' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='1-create-the-overlay-view'>1. Create The Overlay View</h3>
+
+<p>Create your custom Overlay View.  This is the view you want to swipe away to reveal the drawer options.  Make sure to override the <code>setupUI</code> method, because it is called by the DrawerView and allows for the easy setup of the UIAttributes in your cell.  The <code>viewParameters</code> dictionary is available from this method, place the parameters you want in this dictionary and access them to setup your view within the Overlay.</p>
+<pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">EVSlidingTableViewCell</span>
+    <span class="kd">class</span> <span class="kt">OverlayView</span><span class="p">:</span> <span class="kt">EVOverlayView</span> <span class="p">{</span>
+        <span class="kd">@IBOutlet</span> <span class="kd">private</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">titleLabel</span><span class="p">:</span> <span class="kt">UILabel</span><span class="o">!</span>
+        <span class="c1">//override this method</span>
+        <span class="k">override</span> <span class="kd">func</span> <span class="nf">setupUI</span><span class="p">(){</span>
+        <span class="n">titleLabel</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="n">viewParameters</span><span class="p">[</span><span class="s">"titleLabelText"</span><span class="p">]</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+<a href='#2-register-cell-in-view-controller' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='2-register-cell-in-view-controller'>2. Register Cell In View Controller</h3>
+
+<p>Register the custom cell to the UITableView, same as any other custom cell.</p>
+<pre class="highlight swift"><code><span class="n">tableView</span><span class="o">.</span><span class="nf">registerNib</span><span class="p">(</span><span class="kt">EVConstants</span><span class="o">.</span><span class="n">evTableViewCell</span><span class="p">,</span> <span class="nv">forCellReuseIdentifier</span><span class="p">:</span> <span class="n">reuseIdentifier</span><span class="p">)</span>
+</code></pre>
+
+<p>Extend the SlidingTableViewCellDelegate and implement the <code>setDrawerViewOptionsForRow</code> method </p>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">ViewController</span><span class="p">:</span> <span class="kt">SlidingTableViewCellDelegate</span> <span class="p">{</span>
+    <span class="c1">//a complete example can be found in the sample project</span>
+    <span class="kd">func</span> <span class="nf">setDrawerViewOptionsForRow</span><span class="p">(</span><span class="n">_</span> <span class="nv">object</span><span class="p">:</span> <span class="kt">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">DrawerViewOptionsType</span> <span class="p">{</span>
+        <span class="k">var</span> <span class="nv">contactMethods</span> <span class="o">=</span> <span class="kt">DrawerViewOptionsType</span><span class="p">()</span>
+        <span class="c1">//set contactMethods values for the label, image, and closure...</span>
+        <span class="c1">//e.i. contactMethods.closure = emailClosure()</span>
+        <span class="k">return</span> <span class="n">contactMethods</span> 
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+
+<p>Make sure to correctly link to this cell inside of your UITableViewDelegate/DataSource</p>
+<pre class="highlight swift"><code><span class="c1">//MARK: - UITableViewDelegate</span>
+<span class="kd">extension</span> <span class="kt">ViewController</span><span class="p">:</span> <span class="kt">UITableViewDelegate</span> <span class="p">{</span>
+    <span class="kd">func</span> <span class="nf">tableView</span><span class="p">(</span><span class="n">_</span> <span class="nv">tableView</span><span class="p">:</span> <span class="kt">UITableView</span><span class="p">,</span> <span class="n">didSelectRowAtIndexPath</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">NSIndexPath</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">//calls delegate method to replace overlay you can overwrite this method inside of the SlidingTableViewCellDelegate</span>
+    <span class="nf">didSelectRowIn</span><span class="p">(</span><span class="n">tableView</span><span class="p">,</span> <span class="nv">atIndexPath</span><span class="p">:</span> <span class="n">indexPath</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">//MARK: - UITableViewDataSource</span>
+<span class="kd">extension</span> <span class="kt">ViewController</span><span class="p">:</span> <span class="kt">UITableViewDataSource</span> <span class="p">{</span>
+    <span class="kd">func</span> <span class="nf">tableView</span><span class="p">(</span><span class="n">_</span> <span class="nv">tableView</span><span class="p">:</span> <span class="kt">UITableView</span><span class="p">,</span> <span class="n">cellForRowAtIndexPath</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">NSIndexPath</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UITableViewCell</span> <span class="p">{</span>
+        <span class="k">let</span> <span class="nv">cell</span> <span class="o">=</span> <span class="n">contactsTableView</span><span class="o">.</span><span class="nf">dequeueReusableCellWithIdentifier</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">reuseIdentifier</span><span class="p">)</span> <span class="k">as!</span> <span class="kt">SlidingTableViewControllerCell</span>
+        <span class="k">let</span> <span class="nv">user</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="n">indexPath</span><span class="o">.</span><span class="n">row</span><span class="p">]</span>
+        <span class="c1">//calls delegateMethod</span>
+        <span class="k">let</span> <span class="nv">contactMethods</span> <span class="o">=</span> <span class="nf">setDrawerViewOptionsForRow</span><span class="p">(</span><span class="n">user</span><span class="p">)</span>
+        <span class="n">cell</span><span class="o">.</span><span class="nf">setCellWithAttributes</span><span class="p">(</span><span class="nv">overlayParameters</span><span class="p">:</span> <span class="p">[:],</span> <span class="nv">drawerViewOptions</span><span class="p">:</span> <span class="n">contactMethods</span><span class="p">,</span> <span class="nv">overlayView</span><span class="p">:</span> <span class="kt">OverlayView</span><span class="o">.</span><span class="nf">loadFromNib</span><span class="p">(</span><span class="kc">nil</span><span class="p">))</span>
+        <span class="n">cell</span><span class="o">.</span><span class="n">selectionStyle</span> <span class="o">=</span> <span class="o">.</span><span class="kt">None</span><span class="p">;</span>
+        <span class="k">return</span> <span class="n">cell</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+
+<p>Lastly, define your closures of type <code>DrawerViewClosureType</code> which are executed on drawer view button click.  Feel free to make whatever closures you want.  Sticking with the GChat theme, examples are included below:</p>
+<pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">emailClosure</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">DrawerViewClosureType</span> <span class="p">{</span>
+    <span class="kd">func</span> <span class="nf">openEmail</span><span class="p">(</span><span class="nv">text</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">(</span><span class="kt">Bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kt">UIApplication</span><span class="o">.</span><span class="nf">sharedApplication</span><span class="p">()</span><span class="o">.</span><span class="nf">openURL</span><span class="p">(</span><span class="kt">NSURL</span><span class="p">(</span><span class="nv">string</span><span class="p">:</span> <span class="s">"mailto:</span><span class="se">\(</span><span class="n">text</span><span class="se">)</span><span class="s">"</span><span class="p">)</span><span class="o">!</span><span class="p">)</span>
+        <span class="k">return</span> <span class="kc">true</span>
+    <span class="p">}</span>
+
+    <span class="k">return</span> <span class="n">openEmail</span>
+<span class="p">}</span>
+
+
+<span class="kd">func</span> <span class="nf">phoneClosure</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">DrawerViewClosureType</span> <span class="p">{</span>
+    <span class="kd">func</span> <span class="nf">openPhone</span><span class="p">(</span><span class="nv">text</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">(</span><span class="kt">Bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">let</span> <span class="nv">phoneNumber</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="nf">componentsSeparatedByCharactersInSet</span><span class="p">(</span><span class="kt">NSCharacterSet</span><span class="o">.</span><span class="nf">decimalDigitCharacterSet</span><span class="p">()</span><span class="o">.</span><span class="n">invertedSet</span><span class="p">)</span><span class="o">.</span><span class="nf">joinWithSeparator</span><span class="p">(</span><span class="s">""</span><span class="p">)</span>
+        <span class="kt">UIApplication</span><span class="o">.</span><span class="nf">sharedApplication</span><span class="p">()</span><span class="o">.</span><span class="nf">openURL</span><span class="p">(</span><span class="kt">NSURL</span><span class="p">(</span><span class="nv">string</span><span class="p">:</span> <span class="s">"tel://</span><span class="se">\(</span><span class="n">phoneNumber</span><span class="se">)</span><span class="s">"</span><span class="p">)</span><span class="o">!</span><span class="p">)</span>
+        <span class="k">return</span> <span class="kc">true</span>
+    <span class="p">}</span>
+
+    <span class="k">return</span> <span class="n">openPhone</span>
+<span class="p">}</span>
+
+<span class="kd">func</span> <span class="nf">textClosure</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">DrawerViewClosureType</span> <span class="p">{</span>
+    <span class="kd">func</span> <span class="nf">openMessenger</span><span class="p">(</span><span class="nv">text</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">(</span><span class="kt">Bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">let</span> <span class="nv">phoneNumber</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="nf">componentsSeparatedByCharactersInSet</span><span class="p">(</span><span class="kt">NSCharacterSet</span><span class="o">.</span><span class="nf">decimalDigitCharacterSet</span><span class="p">()</span><span class="o">.</span><span class="n">invertedSet</span><span class="p">)</span><span class="o">.</span><span class="nf">joinWithSeparator</span><span class="p">(</span><span class="s">""</span><span class="p">)</span>
+        <span class="kt">UIApplication</span><span class="o">.</span><span class="nf">sharedApplication</span><span class="p">()</span><span class="o">.</span><span class="nf">openURL</span><span class="p">(</span><span class="kt">NSURL</span><span class="p">(</span><span class="nv">string</span><span class="p">:</span> <span class="s">"sms:+</span><span class="se">\(</span><span class="n">phoneNumber</span><span class="se">)</span><span class="s">"</span><span class="p">)</span><span class="o">!</span><span class="p">)</span>
+        <span class="k">return</span> <span class="kc">true</span>
+    <span class="p">}</span>
+
+    <span class="k">return</span> <span class="n">openMessenger</span>
+<span class="p">}</span>
+</code></pre>
+<a href='#project-description' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='project-description'>Project Description</h2>
+<a href='#evconstants' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='evconstants'>EVConstants</h3>
+
+<p>Struct that contains constants used in the project.
+* <strong>Public</strong>
+    * <strong>bundle</strong> -&gt; bundle identifier for the pod (EVSlidingTableViewCell)
+    * <strong>evTableViewCell</strong> -&gt; nib for the UITableViewCell</p>
+<a href='#contactitem' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='contactitem'>ContactItem</h3>
+
+<p>Internal UIView that represents one of the drawer view icons which contains a user defined closure that is executed on buttonClick.  Every ContactItem gets its information from a DrawerViewOption.</p>
+<a href='#drawerviewoption' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='drawerviewoption'>DrawerViewOption</h3>
+
+<p>Struct that holds values for a ContactItem.  An array of DrawerViewOptions is constructed based off of the number of ContactItem&rsquo;s one wishes to display in the DrawerView (must be between 1 and 4).
+* <strong>Parameters</strong>
+    * <strong>closure</strong> -&gt; Closure of the type <code>DrawerViewClosure</code> this is executed on ContactItems IBAction
+    * <strong>valueForButtonAction</strong> -&gt; <code>String</code> that is taken as input by the closure
+    * <strong>textForLabel</strong> -&gt; <code>String</code> that is the text for label displayed by the ContactItem
+    * <strong>buttonImage</strong> -&gt; <code>UIImage</code> to be displayed on the ContactItem button</p>
+<a href='#slidingtableviewcontrollercell' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='slidingtableviewcontrollercell'>SlidingTableViewControllerCell</h3>
+
+<p>UITableViewCell that allows for the overlay to slide and reveal the drawer.
+* <strong>Public Methods</strong>
+    * <strong>setCellWithAttributes(overlayParameters overlayParameters: OverlayDictionaryType, drawerViewOptions: DrawerViewOptionsType, overlayView overlay: EVOverlayView)</strong>
+    * Places the <code>overlay</code> over drawer cell, establishes the drawer view icons as defined by <code>drawerViewOptions</code>, and passes the <code>overlayParameters</code> to the user defined overlay  This action kicks off the UI setup for the overlay view by calling <code>setuUI()</code>.
+    * <strong>resetOverlay()</strong> resets the overlay to the center position.</p>
+<a href='#slidingtableviewdelegate' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='slidingtableviewdelegate'>SlidingTableViewDelegate</h3>
+
+<p>Public protocol serving as the delegate for the SlidingTableViewCell, a complete example implementation is included in the sample project.
+* <strong>Methods</strong>
+    * <strong>setDrawerViewOptionsForRow(_ object: Any) -&gt; DrawerViewOptionsType</strong>
+        * Use this method to construct an array of <code>DrawerViewOptions</code> this array is then used to populate the ContactItem UIView
+    * <strong>didSelectRowIn(_ tableView: UITableView, atIndexPath indexPath: NSIndexPath)</strong>
+        * Calls <code>resetOverlay</code> on open cells when a cell is selected
+        * Has a default implementation that can be overridden</p>
+<a href='#evoverlayview' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='evoverlayview'>EVOverlayView</h3>
+
+<p>UIView that conforms to the EVOverlayProtocol.  When you create your overlay extend EVOverlay, <code>class YourOverlay: EVOverlayView`{}``.
+* **Parameters**
+    * **viewParameters** -&gt;</code>OverlayDictionaryType<code>contains all the user defined properties from the overlayParameters in the</code>cell.setCellWithAttributes(&hellip;)<code>method call 
+* **Methods**
+    * **setupUI()** -&gt; Override this method to set up a custom layout for your overlay, see</code>OverlayView`&ldquo; in sample project for an example implementation</p>
+<a href='#extensions' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='extensions'>Extensions</h3>
+
+<ul>
+<li><strong>UITableView</strong> -&gt; Adds stored property used to check if the overlay is present or hidden</li>
+<li><strong>UIView</strong> -&gt; Adds method <code>.loadFromNib(bundle)</code> which is used in the example project and loads a file from a nib see <a href="http://stackoverflow.com/questions/25513271/how-to-initialise-a-uiview-class-with-a-xib-file-in-swift-ios">stackoverflow answer</a></li>
+</ul>
+<a href='#typealiases' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='typealiases'>Typealiases</h3>
+
+<ul>
+<li><strong>OverlayDictionaryType</strong> -&gt; <code>[String:Any?]</code></li>
+<li><strong>DrawerViewOptionType</strong> -&gt; <code>[DrawerViewOption]</code></li>
+<li><strong>DrawerViewClosureType</strong> -&gt; <code>((String) -&gt; Bool)</code></li>
+</ul>
+<a href='#author' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='author'>Author</h2>
+
+<p>Eric Vennaro, <a href="mailto:epv9@case.edu">epv9@case.edu</a></p>
+<a href='#license' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='license'>License</h2>
+
+<p>EVSlidingTableViewCell is available under the <a href="http://opensource.org/licenses/MIT">MIT License</a>. See the LICENSE file for more info.</p>
+
+<blockquote>
+<p><strong>Copyright &copy; 2016-present Eric Vennaro.</strong></p>
+</blockquote>
+
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2017 <a class="link" href="https://github.com/epv44/EVSlidingTableViewCell" target="_blank" rel="external">Eric Vennaro</a>. All rights reserved. (Last updated: 2017-01-31)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.3</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
