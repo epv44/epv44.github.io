@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SlidingTableViewCellDelegate Protocol Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Protocol/SlidingTableViewCellDelegate" class="dashAnchor"></a>
+    <a title="SlidingTableViewCellDelegate Protocol Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">EVSlidingTableViewCell Docs</a> (100% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">EVSlidingTableViewCell Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        SlidingTableViewCellDelegate Protocol Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/EVOverlayView.html">EVOverlayView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SlidingTableViewControllerCell.html">SlidingTableViewControllerCell</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/SlidingTableViewCellDelegate.html">SlidingTableViewCellDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/UIViewLoading.html">UIViewLoading</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structs</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/DrawerViewOption.html">DrawerViewOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/EVConstants.html">EVConstants</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>SlidingTableViewCellDelegate</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">SlidingTableViewCellDelegate</span><span class="p">:</span> <span class="kd">class</span></code></pre>
+
+                </div>
+              </div>
+            <p>The delegate of a SlidingTableViewCell must adopt the SlidingTableViewCellDelegate protocol.  Methods of this protocol allow the delegate to handle selections and manage the UIButton IBAction&rsquo;s associated with the drawer view.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FP22EVSlidingTableViewCell28SlidingTableViewCellDelegate26setDrawerViewOptionsForRowFP_GSaVS_16DrawerViewOption_"></a>
+                    <a name="//apple_ref/swift/Method/setDrawerViewOptionsForRow(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FP22EVSlidingTableViewCell28SlidingTableViewCellDelegate26setDrawerViewOptionsForRowFP_GSaVS_16DrawerViewOption_">setDrawerViewOptionsForRow(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set options for DrawerView ContactItem</p>
+
+<div class="aside aside-parameter">
+    <p class="aside-title">Parameter</p>
+    <p>Parameter object: The object used to populate the DrawerViewOptions</p>
+
+</div>
+
+<div class="aside aside-returns">
+    <p class="aside-title">Returns</p>
+    <p>List of DrawerViewOptions</p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">setDrawerViewOptionsForRow</span><span class="p">(</span><span class="n">_</span> <span class="nv">object</span><span class="p">:</span> <span class="kt">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">DrawerViewOptionsType</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>object</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The object used to populate the DrawerViewOptions</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>List of DrawerViewOptions</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:Fe22EVSlidingTableViewCellRxCSo16UIViewControllerxS_28SlidingTableViewCellDelegaterS1_14didSelectRowInFTCSo11UITableView11atIndexPathV10Foundation9IndexPath_T_"></a>
+                    <a name="//apple_ref/swift/Method/didSelectRowIn(_:atIndexPath:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:Fe22EVSlidingTableViewCellRxCSo16UIViewControllerxS_28SlidingTableViewCellDelegaterS1_14didSelectRowInFTCSo11UITableView11atIndexPathV10Foundation9IndexPath_T_">didSelectRowIn(_:atIndexPath:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Resets Overlay view to center position when the TableViewCell is selected.  You can call this method from didSelectRowAtIndexPath, or you can override.</p>
+
+<div class="aside aside-parameter">
+    <p class="aside-title">Parameter</p>
+    Parameter tableView: UITableView used
+
+</div>
+
+<div class="aside aside-parameter">
+    <p class="aside-title">Parameter</p>
+    Parameter indexPath: current NSIndexPath
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">didSelectRowIn</span><span class="p">(</span><span class="n">_</span> <span class="nv">tableView</span><span class="p">:</span> <span class="kt">UITableView</span><span class="p">,</span> <span class="n">atIndexPath</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>tableView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UITableView used</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>indexPath</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>current NSIndexPath</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2017 <a class="link" href="https://github.com/epv44/EVSlidingTableViewCell" target="_blank" rel="external">Eric Vennaro</a>. All rights reserved. (Last updated: 2017-01-31)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.3</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
