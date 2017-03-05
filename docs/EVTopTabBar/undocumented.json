@@ -1,0 +1,33 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/EVTopTabBar/Pod/Classes/EVPageViewTopTabBar.swift",
+      "line": 86,
+      "symbol": "EVPageViewTopTabBar.middleRightButtonText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/EVTopTabBar/Pod/Classes/NumberOfTabs.swift",
+      "line": 13,
+      "symbol": "NumberOfTabs.four",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/EVTopTabBar/Pod/Classes/NumberOfTabs.swift",
+      "line": 13,
+      "symbol": "NumberOfTabs.three",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/EVTopTabBar/Pod/Classes/NumberOfTabs.swift",
+      "line": 13,
+      "symbol": "NumberOfTabs.two",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/ericsMac/Documents/iOS Dev/cocoapods/EVTopTabBar"
+}

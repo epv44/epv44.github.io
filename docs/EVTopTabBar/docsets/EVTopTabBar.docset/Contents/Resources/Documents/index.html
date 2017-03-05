@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>EVTopTabBar  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a title="EVTopTabBar  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html">EVTopTabBar Docs</a> (84% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html">EVTopTabBar Reference</a>
+        <img id="carat" src="img/carat.png" />
+        EVTopTabBar  Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/EVPageViewTopTabBar.html">EVPageViewTopTabBar</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Enums/NumberOfTabs.html">NumberOfTabs</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Protocols/EVTabBar.html">EVTabBar</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/EVTabBarDelegate.html">EVTabBarDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            
+            <a href='#evtoptabbar' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h1 id='evtoptabbar'>EVTopTabBar</h1>
+
+<p><a href="https://travis-ci.org/epv44/EVTopTabBar"><img src="https://api.travis-ci.org/epv44/EVTopTabBar.svg" alt="CI Status"></a>
+<a href="http://cocoapods.org/pods/EVTopTabBar"><img src="https://img.shields.io/cocoapods/v/EVTopTabBar.svg?style=flat" alt="Version"></a>
+<a href="http://cocoapods.org/pods/EVTopTabBar"><img src="https://img.shields.io/cocoapods/l/EVTopTabBar.svg?style=flat" alt="License"></a>
+<a href="http://cocoapods.org/pods/EVTopTabBar"><img src="https://img.shields.io/cocoapods/p/EVTopTabBar.svg?style=flat" alt="Platform"></a></p>
+<a href='#about' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='about'>About</h2>
+
+<p>EVTopTabBar is a custom UIPageViewController for iOS where the page control is at the top.  It currently supports up to 4 tabs.</p>
+
+<p><img src="https://raw.githubusercontent.com/epv44/EVTopTabBar/master/fourTabs.gif" alt="Screenshot1"></p>
+<a href='#usage' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='usage'>Usage</h2>
+
+<p>To run the example project, clone the repo, and run <code>pod install</code> from the Example directory.</p>
+<a href='#requirements' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='requirements'>Requirements</h2>
+
+<ul>
+<li>Swift 3.0+</li>
+<li>iOS 8.0+</li>
+</ul>
+<a href='#installation' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='installation'>Installation</h2>
+
+<p>EVTopTabBar is available through <a href="http://cocoapods.org">CocoaPods</a>. To install
+it, simply add the following line to your Podfile:</p>
+<pre class="highlight ruby"><code><span class="n">pod</span> <span class="s2">"EVTopTabBar"</span>
+</code></pre>
+
+<p>Also include </p>
+<pre class="highlight ruby"><code><span class="n">use_frameworks!</span>
+</code></pre>
+<a href='#getting-started' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='getting-started'>Getting Started</h2>
+<pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">EVTopTabBar</span>
+</code></pre>
+
+<p>Implement the EVTabBar protocol and conform to it (The example project has a detailed implementation).  In order to conform to the protocol declare:</p>
+<pre class="highlight swift"><code><span class="k">var</span> <span class="nv">pageController</span> <span class="o">=</span> <span class="kt">UIPageViewController</span><span class="p">(</span><span class="nv">transitionStyle</span><span class="p">:</span> <span class="o">.</span><span class="kt">Scroll</span><span class="p">,</span> <span class="nv">navigationOrientation</span><span class="p">:</span> <span class="o">.</span><span class="kt">Horizontal</span><span class="p">,</span> <span class="nv">options</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
+<span class="c1">//need to instantiate the topTabBar itself, later we will implement the delegate method</span>
+<span class="c1">//enum .two, .three, .four correspond to the number of tabs you wish to display</span>
+<span class="k">var</span> <span class="nv">topTabBar</span><span class="p">:</span> <span class="kt">EVPageViewTopTabBar</span> <span class="o">=</span> <span class="kt">EVPageViewTopTabBar</span><span class="p">(</span><span class="nv">for</span><span class="p">:</span> <span class="o">.</span><span class="n">four</span><span class="p">)</span>
+<span class="c1">//array of view controllers that will be controlled by the page view controller</span>
+<span class="k">var</span> <span class="nv">subviewControllers</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIViewController</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="c1">//image from the sample project can use any UIImage you want, this shadow is what is displayed under the tab bar.</span>
+<span class="k">var</span> <span class="nv">shadowView</span> <span class="o">=</span> <span class="kt">UIImageView</span><span class="p">(</span><span class="nv">image</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">(</span><span class="nv">imageLiteral</span><span class="p">:</span> <span class="s">"filter-background-image"</span><span class="p">))</span>
+</code></pre>
+
+<p>Now in your view controller implement the EVPageViewTopTabBarDelegate method <code>willSelectViewControllerAtIndex</code> This method allows for view controllers to switch and gives a space to perform any other actions.</p>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">ViewController</span><span class="p">:</span> <span class="kt">EVPageViewTopTabBarDelegate</span> <span class="p">{</span>
+    <span class="c1">//delegate method</span>
+    <span class="kd">func</span> <span class="nf">willSelectViewControllerAtIndex</span><span class="p">(</span><span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">direction</span><span class="p">:</span> <span class="kt">UIPageViewControllerNavigationDirection</span><span class="p">)</span> <span class="p">{</span>
+        <span class="c1">//required line that changes the displayed view controller</span>
+        <span class="n">pageController</span><span class="o">.</span><span class="nf">setViewControllers</span><span class="p">([</span><span class="k">self</span><span class="o">.</span><span class="n">subviewControllers</span><span class="p">[</span><span class="n">index</span><span class="p">]],</span> <span class="nv">direction</span><span class="p">:</span> <span class="n">direction</span><span class="p">,</span> <span class="nv">animated</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
+        <span class="c1">//add whatever code you wish to occur on the transition!</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+
+<p>Next will want to call the <code>setupPageView()</code> and <code>setupConstraints()</code> methods in order to setup the page layout.  You can override both of these methods to create a more custom application.  </p>
+
+<p>Lastly you will want to setup the topTabBar you previously declared</p>
+<pre class="highlight swift"><code><span class="c1">//attributes of the topTabBar you can set</span>
+<span class="n">topTabBar</span><span class="o">.</span><span class="n">fontColors</span> <span class="o">=</span> <span class="p">(</span><span class="nv">selectedColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="o">.</span><span class="nf">grayColor</span><span class="p">(),</span> <span class="nv">unselectedColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="o">.</span><span class="nf">lightGrayColor</span><span class="p">())</span>
+<span class="n">topTabBar</span><span class="o">.</span><span class="n">rightButtonText</span> <span class="o">=</span> <span class="s">"Events"</span>
+<span class="n">topTabBar</span><span class="o">.</span><span class="n">leftButtonText</span> <span class="o">=</span> <span class="s">"Contacts"</span>
+<span class="n">topTabBar</span><span class="o">.</span><span class="n">labelFont</span> <span class="o">=</span> <span class="kt">UIFont</span><span class="p">(</span><span class="nv">name</span><span class="p">:</span> <span class="s">".SFUIText-Regular"</span><span class="p">,</span> <span class="nv">size</span><span class="p">:</span> <span class="mi">11</span><span class="p">)</span><span class="o">!</span>
+<span class="n">topTabBar</span><span class="o">.</span><span class="n">indicatorViewColor</span> <span class="o">=</span> <span class="kt">UIColor</span><span class="o">.</span><span class="nf">blueColor</span><span class="p">()</span>
+<span class="n">topTabBar</span><span class="o">.</span><span class="n">backgroundColor</span> <span class="o">=</span> <span class="kt">UIColor</span><span class="o">.</span><span class="nf">whiteColor</span><span class="p">()</span>
+<span class="c1">//ensure you set the topTabBar's delegate</span>
+<span class="n">topTabBar</span><span class="o">.</span><span class="n">delegate</span> <span class="o">=</span> <span class="k">self</span>
+<span class="c1">//add view controllers you wish to display</span>
+<span class="k">let</span> <span class="nv">firstVC</span> <span class="o">=</span> <span class="kt">FirstViewController</span><span class="p">(</span><span class="nv">nibName</span><span class="p">:</span><span class="s">"FirstViewController"</span><span class="p">,</span> <span class="nv">bundle</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
+<span class="k">let</span> <span class="nv">secondVC</span> <span class="o">=</span> <span class="kt">SecondViewController</span><span class="p">(</span><span class="nv">nibName</span><span class="p">:</span><span class="s">"SecondViewController"</span><span class="p">,</span> <span class="nv">bundle</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
+<span class="n">subviewControllers</span> <span class="o">=</span> <span class="p">[</span><span class="n">firstVC</span><span class="p">,</span> <span class="n">secondVC</span><span class="p">]</span>
+<span class="nf">setupPageView</span><span class="p">()</span>
+<span class="nf">setupConstraints</span><span class="p">()</span>
+</code></pre>
+<a href='#project-description' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='project-description'>Project description</h2>
+<a href='#evtabbar-protocol' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='evtabbar-protocol'>EVTabBar Protocol</h3>
+<a href='#methods' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h4 id='methods'>Methods</h4>
+
+<ul>
+<li><code>setupPageView()</code> Sets the UI for the View Controller including the UIPageViewController, shadowView and View Controllers to display inside of the Page View.</li>
+<li><code>setupConstraints()</code> Sets the initial constraints for the View Controller</li>
+</ul>
+<a href='#evpageviewtoptabbar' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='evpageviewtoptabbar'>EVPageViewTopTabBar</h3>
+<a href='#methods' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h4 id='methods'>Methods</h4>
+
+<ul>
+<li><code>willSelectViewControllerAtIndex(index: Int, direction: UIPageViewControllerNavigationDirection)</code> Controls the changing of the View Controllers inside of the PageViewController and gives a space to perform any other actions on transition</li>
+</ul>
+<a href='#future-features' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='future-features'>Future Features</h2>
+
+<ul>
+<li>More flexibility with the shadow view</li>
+</ul>
+<a href='#author' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='author'>Author</h2>
+
+<p>Eric Vennaro, <a href="mailto:epv9@case.edu">epv9@case.edu</a>, <a href="http://www.ericvennaro.com">blog</a></p>
+<a href='#license' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='license'>License</h2>
+
+<p>EVTopTabBar is available under the <a href="http://opensource.org/licenses/MIT">MIT License</a>. See the LICENSE file for more info.</p>
+
+<blockquote>
+<p><strong>Copyright &copy; 2016-present Eric Vennaro.</strong></p>
+</blockquote>
+
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2017 <a class="link" href="https://github.com/epv44/EVTopTabBar" target="_blank" rel="external">Eric Vennaro</a>. All rights reserved. (Last updated: 2017-03-04)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.3</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
