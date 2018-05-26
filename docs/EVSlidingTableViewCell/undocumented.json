@@ -1,0 +1,47 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/EVSlidingTableViewCell/EVSlidingTableViewCell/Classes/DrawerCell/SlidingTableViewControllerCell.swift",
+      "line": null,
+      "symbol": "SlidingTableViewControllerCell",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/EVSlidingTableViewCell/EVSlidingTableViewCell/Classes/DrawerCell/SlidingTableViewControllerCell.swift",
+      "line": 11,
+      "symbol": "DrawerViewOptionsType",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/EVSlidingTableViewCell/EVSlidingTableViewCell/Classes/DrawerCell/SlidingTableViewControllerCell.swift",
+      "line": 12,
+      "symbol": "DrawerViewClosureType",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/EVSlidingTableViewCell/EVSlidingTableViewCell/Classes/DrawerCell/SlidingTableViewControllerCell.swift",
+      "line": 18,
+      "symbol": "SlidingTableViewControllerCell.reuseIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/EVSlidingTableViewCell/EVSlidingTableViewCell/Classes/DrawerCell/SlidingTableViewControllerCell.swift",
+      "line": 22,
+      "symbol": "SlidingTableViewControllerCell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/EVSlidingTableViewCell/EVSlidingTableViewCell/Classes/OverlayView/EVOverlayView.swift",
+      "line": 14,
+      "symbol": "EVOverlayView.viewParameters",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/ericsMac/Documents/iOS Dev/cocoapods/EVSlidingTableViewCell"
+}
