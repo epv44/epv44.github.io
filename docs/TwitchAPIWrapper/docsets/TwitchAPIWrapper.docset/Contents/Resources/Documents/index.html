@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TwitchAPIWrapper  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a title="TwitchAPIWrapper  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html">TwitchAPIWrapper 0.1.0 Docs</a> (11% documented)</p>
+        <p class="header-right">
+          <form role="search" action="search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html">TwitchAPIWrapper Reference</a>
+        <img id="carat" src="img/carat.png" />
+        TwitchAPIWrapper  Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/TwitchAuthorizationManager.html">TwitchAuthorizationManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/TwitchService.html">TwitchService</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Enums/AuthorizationError.html">AuthorizationError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/BroadcasterType.html">BroadcasterType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/CheermoteType.html">CheermoteType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/CodeSuccessStatus.html">CodeSuccessStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/ExtensionType.html">ExtensionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/HTTPMethod.html">HTTPMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/HypeTrainContributionType.html">HypeTrainContributionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/NetworkJSONServiceError.html">NetworkJSONServiceError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/ParsingError.html">ParsingError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/Result.html">Result</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/RewardStatus.html">RewardStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/StreamType.html">StreamType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/UserType.html">UserType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/VideoType.html">VideoType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/Viewable.html">Viewable</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Protocols/ConstructableRequest.html">ConstructableRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/JSONConstructableRequest.html">JSONConstructableRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/RestRequest.html">RestRequest</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Structs/ActiveExtensions.html">ActiveExtensions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/AllStreamTagRequest.html">AllStreamTagRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/AutoModStatusData.html">AutoModStatusData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/BannedEvent.html">BannedEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/BannedEventData.html">BannedEventData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/BannedEventsResponse.html">BannedEventsResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/BannedUser.html">BannedUser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/BannedUsersResponse.html">BannedUsersResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/BlockUserRequest.html">BlockUserRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/BlockedUser.html">BlockedUser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/BroadcasterSubscription.html">BroadcasterSubscription</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/BroadcasterSubscriptionsResponse.html">BroadcasterSubscriptionsResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ChannelEditor.html">ChannelEditor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ChannelEditorRequest.html">ChannelEditorRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ChannelEditorResponse.html">ChannelEditorResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ChannelInformation.html">ChannelInformation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ChannelInformationRequest.html">ChannelInformationRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ChannelInformationResponse.html">ChannelInformationResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ChannelTeam.html">ChannelTeam</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ChannelTeamResponse.html">ChannelTeamResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ChannelTeamsRequest.html">ChannelTeamsRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CheckAutoModStatusRequest.html">CheckAutoModStatusRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CheckAutoModStatusResponse.html">CheckAutoModStatusResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CheckAutoModeStatus.html">CheckAutoModeStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CheckUserSubscriptionRequest.html">CheckUserSubscriptionRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Cheermote.html">Cheermote</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CheermoteRequest.html">CheermoteRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CheermoteResponse.html">CheermoteResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CheermoteResponseData.html">CheermoteResponseData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Clip.html">Clip</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ClipRequest.html">ClipRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ClipResponse.html">ClipResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CodeStatus.html">CodeStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CodeStatusRequest.html">CodeStatusRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CodeStatusResponse.html">CodeStatusResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Commercial.html">Commercial</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CommercialResponse.html">CommercialResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CreateClip.html">CreateClip</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CreateClipResponse.html">CreateClipResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CreateStreamMarker.html">CreateStreamMarker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CreateStreamMarkerRequest.html">CreateStreamMarkerRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CreateStreamMarkerResponse.html">CreateStreamMarkerResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Credentials.html">Credentials</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CustomAwardResponse.html">CustomAwardResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CustomReward.html">CustomReward</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CustomRewardRedemption.html">CustomRewardRedemption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CustomRewardRedemptionRequest.html">CustomRewardRedemptionRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CustomRewardRedemptionResponse.html">CustomRewardRedemptionResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CustomRewardRequest.html">CustomRewardRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/DateRange.html">DateRange</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/DeleteEventSubSubscriptionRequest.html">DeleteEventSubSubscriptionRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/DeleteVideoRequest.html">DeleteVideoRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/DropsEntitlementRequest.html">DropsEntitlementRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs.html#/s:16TwitchAPIWrapper17EmptyPostResponseV">EmptyPostResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Entitlement.html">Entitlement</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/EntitlementResponse.html">EntitlementResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/EventSubscription.html">EventSubscription</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/EventSubscriptionResponse.html">EventSubscriptionResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Extension.html">Extension</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ExtensionAnalytics.html">ExtensionAnalytics</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ExtensionAnalyticsRequest.html">ExtensionAnalyticsRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ExtensionAnalyticsResponse.html">ExtensionAnalyticsResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ExtensionData.html">ExtensionData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ExtensionTransaction.html">ExtensionTransaction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ExtensionTransactionCost.html">ExtensionTransactionCost</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ExtensionTransactionsRequest.html">ExtensionTransactionsRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ExtensionTransactionsResponse.html">ExtensionTransactionsResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/FailableDecodable.html">FailableDecodable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Follow.html">Follow</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/FollowedStreamsRequest.html">FollowedStreamsRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Game.html">Game</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GameAnalytic.html">GameAnalytic</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GameAnalyticsRequest.html">GameAnalyticsRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GameAnalyticsResponse.html">GameAnalyticsResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GameRequest.html">GameRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GameResponse.html">GameResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GetBannedEventsRequest.html">GetBannedEventsRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GetBannedUsersRequest.html">GetBannedUsersRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GetBroadcastSubscriptionsRequest.html">GetBroadcastSubscriptionsRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GetEventSubSubscriptionRequest.html">GetEventSubSubscriptionRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GetHypeTrainEventsRequest.html">GetHypeTrainEventsRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GetModeratorEventsRequest.html">GetModeratorEventsRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GetModeratorsRequest.html">GetModeratorsRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GetStreamKeyRequest.html">GetStreamKeyRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GetStreamMarkersRequest.html">GetStreamMarkersRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GlobalCooldownSetting.html">GlobalCooldownSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/HypeTrainEvent.html">HypeTrainEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/HypeTrainEventContribution.html">HypeTrainEventContribution</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/HypeTrainEventData.html">HypeTrainEventData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/HypeTrainEventResponse.html">HypeTrainEventResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/LeaderboardEntry.html">LeaderboardEntry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/LeaderboardRequest.html">LeaderboardRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/LeaderboardResponse.html">LeaderboardResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ManageHeldAutoModStatusRequest.html">ManageHeldAutoModStatusRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Marker.html">Marker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/MaxPerStreamSetting.html">MaxPerStreamSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/MaxPerUserPerStreamSetting.html">MaxPerUserPerStreamSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Moderator.html">Moderator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ModeratorEvent.html">ModeratorEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ModeratorEventData.html">ModeratorEventData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ModeratorEventsResponse.html">ModeratorEventsResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ModeratorResponse.html">ModeratorResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ModifyChannelInformationRequest.html">ModifyChannelInformationRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ModifyUserFollowRequest.html">ModifyUserFollowRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs.html#/s:16TwitchAPIWrapper12MutedSegmentV">MutedSegment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Paginate.html">Paginate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ProductData.html">ProductData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/RedeemCodeRequest.html">RedeemCodeRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ReplaceStreamTagRequest.html">ReplaceStreamTagRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/RewardInfo.html">RewardInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/SearchCategoriesRequest.html">SearchCategoriesRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/SearchChannel.html">SearchChannel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/SearchChannelResponse.html">SearchChannelResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/SearchChannelsRequest.html">SearchChannelsRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/StartCommercialRequest.html">StartCommercialRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Stream.html">Stream</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/StreamKey.html">StreamKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/StreamKeyResponse.html">StreamKeyResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/StreamMarker.html">StreamMarker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/StreamMarkerResponse.html">StreamMarkerResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/StreamRequest.html">StreamRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/StreamResponse.html">StreamResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/StreamTag.html">StreamTag</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/StreamTagRequest.html">StreamTagRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/StreamTagResponse.html">StreamTagResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/StreamVideo.html">StreamVideo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Team.html">Team</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/TeamRequest.html">TeamRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/TeamResponse.html">TeamResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/TeamUser.html">TeamUser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/TopGameRequest.html">TopGameRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/UnblockUserRequest.html">UnblockUserRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/UpdateEventSubscriptionRequest.html">UpdateEventSubscriptionRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/UpdateUserExtensionsRequest.html">UpdateUserExtensionsRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/User.html">User</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/UserActiveExtensionResponse.html">UserActiveExtensionResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/UserActiveExtensionsRequest.html">UserActiveExtensionsRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/UserBlockListRequest.html">UserBlockListRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/UserBlocklistResponse.html">UserBlocklistResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/UserExtensionRequest.html">UserExtensionRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/UserExtensionResponse.html">UserExtensionResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/UserFollowRequest.html">UserFollowRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/UserFollowResponse.html">UserFollowResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/UserRequest.html">UserRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/UserResponse.html">UserResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/UserSubscription.html">UserSubscription</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/UserSubscriptionResponse.html">UserSubscriptionResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/UserUpdateRequest.html">UserUpdateRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Video.html">Video</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/VideoRequest.html">VideoRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/VideoResponse.html">VideoResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/WebhookSubscription.html">WebhookSubscription</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/WebhookSubscriptionResponse.html">WebhookSubscriptionResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/WebhookSubscriptionsRequest.html">WebhookSubscriptionsRequest</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            
+            <h1 id='twitchapiwrapper' class='heading'>TwitchAPIWrapper</h1>
+
+<p><a href="https://travis-ci.org/epv44/TwitchAPIWrapper"><img src="https://img.shields.io/travis/epv44/TwitchAPIWrapper.svg?style=flat" alt="CI Status"></a>
+<a href="https://cocoapods.org/pods/TwitchAPIWrapper"><img src="https://img.shields.io/cocoapods/v/TwitchAPIWrapper.svg?style=flat" alt="Version"></a>
+<a href="https://cocoapods.org/pods/TwitchAPIWrapper"><img src="https://img.shields.io/cocoapods/l/TwitchAPIWrapper.svg?style=flat" alt="License"></a>
+<a href="https://cocoapods.org/pods/TwitchAPIWrapper"><img src="https://img.shields.io/cocoapods/p/TwitchAPIWrapper.svg?style=flat" alt="Platform"></a></p>
+<h2 id='example' class='heading'>Example</h2>
+
+<p>To run the example project, clone the repo, and run <code>pod install</code> from the Example directory first.</p>
+<h2 id='requirements' class='heading'>Requirements</h2>
+<h2 id='installation' class='heading'>Installation</h2>
+
+<p>TwitchAPIWrapper is available through <a href="https://cocoapods.org">CocoaPods</a>. To install
+it, simply add the following line to your Podfile:</p>
+<pre class="highlight ruby"><code><span class="n">pod</span> <span class="s1">'TwitchAPIWrapper'</span>
+</code></pre>
+<h2 id='available-api-calls' class='heading'>Available API Calls</h2>
+
+<table><thead>
+<tr>
+<th>Twitch API Method</th>
+<th>Swift Request Object</th>
+<th>Swift Result Object</th>
+<th style="text-align: center">Supported?</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Start Commercial</td>
+<td>CommercialRequest</td>
+<td></td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Get Extension Analytics</td>
+<td>StartCommercialRequest</td>
+<td></td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Get Game Analytics</td>
+<td>GameAnalyticsRequest</td>
+<td></td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Get Bits Leaderboard</td>
+<td>LeaderboardRequest</td>
+<td></td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Get Cheermotes</td>
+<td>CheermoteRequest</td>
+<td></td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Get Extension Transactions</td>
+<td>ExtensionTransactionsRequest</td>
+<td>✅</td>
+<td style="text-align: center"></td>
+</tr>
+<tr>
+<td>Get Channel Information</td>
+<td>ChannelInformationRequest</td>
+<td>✅</td>
+<td style="text-align: center"></td>
+</tr>
+<tr>
+<td>Modify Channel Information</td>
+<td>ModifyChannelInformationRequest</td>
+<td>✅</td>
+<td style="text-align: center"></td>
+</tr>
+<tr>
+<td>Get Channel Editors</td>
+<td>ChannelEditorsRequest</td>
+<td>✅</td>
+<td style="text-align: center"></td>
+</tr>
+<tr>
+<td>Create Custom Rewards</td>
+<td>CustomRewardRequest</td>
+<td>CustomRewardResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Delete Custom Reward</td>
+<td>CustomRewardRequest</td>
+<td>EmptyPostResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Get Custom Reward</td>
+<td>CustomRewardRequest</td>
+<td>CustomRewardResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Get Custom Reward Redemption</td>
+<td>CustomRewardRedemptionRequest</td>
+<td>CustomRewardResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Update Custom Reward</td>
+<td>CustomRewardRequest</td>
+<td>CustomRewardResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Update Redemption Status</td>
+<td>CustomRewardRedemptionRequest</td>
+<td>CustomRewardResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Create Clip</td>
+<td>ClipRequest</td>
+<td>CreateClipResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Get Clips</td>
+<td>ClipRequest</td>
+<td>ClipResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Get Code Status</td>
+<td>CodeStatusRequest</td>
+<td>CodeStatusResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Get Drops Entitlements</td>
+<td>DropEntitlementsRequest</td>
+<td>EntitlementResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Redeem Code</td>
+<td>RedeemCodeRequest</td>
+<td>CodeStatusResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Create EventSub Subscription</td>
+<td>EventSubscriptionRequest</td>
+<td>EventSubscriptionResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Delete EventSub Subscription</td>
+<td>DeleteEventSubSubscriptionRequest</td>
+<td>EmptyPostResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Get EventSub Subscription</td>
+<td>GetEventSubSubscriptionRequest</td>
+<td>EventSubscriptionResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Get Top Games</td>
+<td>TopGameRequest</td>
+<td>✅</td>
+<td style="text-align: center"></td>
+</tr>
+<tr>
+<td>Get Games</td>
+<td>GameRequest</td>
+<td>✅</td>
+<td style="text-align: center"></td>
+</tr>
+<tr>
+<td>Get Hype Train Events</td>
+<td>GetHypeTrainEventRequest</td>
+<td>HypeTrainEventResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Check AutoMod Status</td>
+<td>CheckAutoModStatusRequest</td>
+<td>CheckAutoModeStatusResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Manage Held AutoMod Messages</td>
+<td>ManageHeldAutoModStatusRequest</td>
+<td>EmptyPostResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Get Banned Events</td>
+<td>GetBannedEventsRequest</td>
+<td>BannedEventsResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Get Banned Users</td>
+<td>GetBannedUsersRequest</td>
+<td>BannedUsersResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Get Moderators</td>
+<td>GetModeratorsRequest</td>
+<td>ModeratorsResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Get Moderator Events</td>
+<td>GetModeratorEventsRequest</td>
+<td>ModeratorEventsResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Search Categories</td>
+<td>SearchCategoriesRequest</td>
+<td>GamesResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Search Channels</td>
+<td>SearchChannelsRequest</td>
+<td>SearchChannelResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Get Stream Key</td>
+<td>GetStreamKeyRequest</td>
+<td>StreamKeyResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Get Streams</td>
+<td>StreamRequest</td>
+<td>StreamResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Get Followed Streams</td>
+<td>FollowedStreamRequest</td>
+<td>StreamResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Create Stream Marker</td>
+<td>CreateStreamMarkerRequest</td>
+<td>CreateStreamMarkerResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Get Stream Markers</td>
+<td>GetStreamMarkerRequest</td>
+<td>StreamMarkerResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Get Broadcaster Subscriptions</td>
+<td>BroadcasterSubscriptionRequest</td>
+<td>BroadcasterSubscriptionResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Check User Subscription</td>
+<td>CheckUserSubscriptionRequest</td>
+<td>UserSubscriptionResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Get All Stream Tags</td>
+<td>AllStreamTagRequest</td>
+<td>StreamTagResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Get Stream Tags</td>
+<td>StreamTagRequest</td>
+<td>StreamTagResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Replace Stream Tags</td>
+<td>ReplaceStreamTagRequest</td>
+<td>EmptyPostResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Get Channel Teams</td>
+<td>ChannelTeamsRequest</td>
+<td>ChannelTeamResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Get Teams</td>
+<td>TeamRequest</td>
+<td>TeamResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Get Users</td>
+<td>UserRequest</td>
+<td>✅</td>
+<td style="text-align: center"></td>
+</tr>
+<tr>
+<td>Update User</td>
+<td>UserUpdateRequest</td>
+<td>✅</td>
+<td style="text-align: center"></td>
+</tr>
+<tr>
+<td>Get User Follows</td>
+<td>UserFollowRequest</td>
+<td>✅</td>
+<td style="text-align: center"></td>
+</tr>
+<tr>
+<td>Create User Follows</td>
+<td>ModifyUserFollowRequest</td>
+<td>EmptyPostResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Delete User Follows</td>
+<td>ModifyUserFollowRequest</td>
+<td>EmptyPostResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Get User Block List</td>
+<td>UserBlockListRequest</td>
+<td>UserBlocklistResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Block User</td>
+<td>BlockUserRequest</td>
+<td>EmptyPostRequest</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Unblock User</td>
+<td>UnblockUserRequest</td>
+<td>EmptyPostRequest</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Get User Extensions</td>
+<td>UserExtensionRequest</td>
+<td>UserExtensionResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Get User Active Extensions</td>
+<td>UserActiveExtensionsRequest</td>
+<td>UserActiveExtensionResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Update User Extension</td>
+<td>UpdateUserExtensionsRequest</td>
+<td>UserActiveExtensionResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Get Videos</td>
+<td>GetVideoRequest</td>
+<td>GetVideoResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Delete Videos</td>
+<td>DeleteVideoRequest</td>
+<td>EmptyPostResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>Get Webhook Subscriptions</td>
+<td>WebhookSubscriptionsRequest</td>
+<td>WebhookSubscriptionsResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+</tbody></table>
+<h2 id='author' class='heading'>Author</h2>
+
+<p>epv44, <a href="mailto:epv9@case.edu">epv9@case.edu</a></p>
+<h2 id='license' class='heading'>License</h2>
+
+<p>TwitchAPIWrapper is available under the MIT license. See the LICENSE file for more info.</p>
+
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2021 <a class="link" href="https://github.com/epv44/TwitchAPIWrapper" target="_blank" rel="external">epv44</a>. All rights reserved. (Last updated: 2021-05-25)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
