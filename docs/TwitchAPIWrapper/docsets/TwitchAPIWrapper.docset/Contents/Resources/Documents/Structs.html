@@ -17,7 +17,7 @@
     <a title="Structures  Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="index.html">TwitchAPIWrapper 0.1.0 Docs</a> (11% documented)</p>
+        <p><a href="index.html">TwitchAPIWrapper 0.1.0 Docs</a> (20% documented)</p>
         <p class="header-right">
           <form role="search" action="search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
@@ -62,6 +62,9 @@
                 <a href="Enums/CodeSuccessStatus.html">CodeSuccessStatus</a>
               </li>
               <li class="nav-group-task">
+                <a href="Enums/EntitlementFulfillmentStatus.html">EntitlementFulfillmentStatus</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Enums/ExtensionType.html">ExtensionType</a>
               </li>
               <li class="nav-group-task">
@@ -84,6 +87,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="Enums/StreamType.html">StreamType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/UpdatedEntitlementStatus.html">UpdatedEntitlementStatus</a>
               </li>
               <li class="nav-group-task">
                 <a href="Enums/UserType.html">UserType</a>
@@ -261,19 +267,22 @@
                 <a href="Structs/CustomRewardRequest.html">CustomRewardRequest</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/DateRange.html">DateRange</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="Structs/DeleteEventSubSubscriptionRequest.html">DeleteEventSubSubscriptionRequest</a>
               </li>
               <li class="nav-group-task">
                 <a href="Structs/DeleteVideoRequest.html">DeleteVideoRequest</a>
               </li>
               <li class="nav-group-task">
+                <a href="Structs/DeleteVideoResponse.html">DeleteVideoResponse</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Structs/DropsEntitlementRequest.html">DropsEntitlementRequest</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs.html#/s:16TwitchAPIWrapper17EmptyPostResponseV">EmptyPostResponse</a>
+                <a href="Structs/EVDateRange.html">EVDateRange</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs.html#/s:16TwitchAPIWrapper13EmptyResponseV">EmptyResponse</a>
               </li>
               <li class="nav-group-task">
                 <a href="Structs/Entitlement.html">Entitlement</a>
@@ -510,10 +519,19 @@
                 <a href="Structs/UnblockUserRequest.html">UnblockUserRequest</a>
               </li>
               <li class="nav-group-task">
+                <a href="Structs/UpdateDropsEntitlementsRequest.html">UpdateDropsEntitlementsRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/UpdateEntitlementResponse.html">UpdateEntitlementResponse</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Structs/UpdateEventSubscriptionRequest.html">UpdateEventSubscriptionRequest</a>
               </li>
               <li class="nav-group-task">
                 <a href="Structs/UpdateUserExtensionsRequest.html">UpdateUserExtensionsRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/UpdatedEntitlement.html">UpdatedEntitlement</a>
               </li>
               <li class="nav-group-task">
                 <a href="Structs/User.html">User</a>
@@ -771,7 +789,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>API response object for <a href="https://dev.twitch.tv/docs/api/reference/#get-broadcaster-subscriptions">https://dev.twitch.tv/docs/api/reference/#get-broadcaster-subscriptions</a></p>
 
                         <a href="Structs/BroadcasterSubscriptionsResponse.html" class="slightly-smaller">See more</a>
                       </div>
@@ -799,7 +817,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Object representing the subscriptions as part of the <code><a href="Structs/BroadcasterSubscriptionsResponse.html">BroadcasterSubscriptionsResponse</a></code> <a href="https://dev.twitch.tv/docs/api/reference/#get-broadcaster-subscriptions">https://dev.twitch.tv/docs/api/reference/#get-broadcaster-subscriptions</a></p>
 
                         <a href="Structs/BroadcasterSubscription.html" class="slightly-smaller">See more</a>
                       </div>
@@ -827,7 +845,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Response object for channel editor request: <a href="https://dev.twitch.tv/docs/api/reference/#get-channel-editors">https://dev.twitch.tv/docs/api/reference/#get-channel-editors</a></p>
 
                         <a href="Structs/ChannelEditorResponse.html" class="slightly-smaller">See more</a>
                       </div>
@@ -855,7 +873,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Individual data pertaining to the  <code>ChannelEditorResponseObject</code> populated from <a href="https://dev.twitch.tv/docs/api/reference/#get-channel-editors">https://dev.twitch.tv/docs/api/reference/#get-channel-editors</a></p>
 
                         <a href="Structs/ChannelEditor.html" class="slightly-smaller">See more</a>
                       </div>
@@ -883,7 +901,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Response object containing data from the channel information request: <a href="https://dev.twitch.tv/docs/api/reference/#get-channel-information">https://dev.twitch.tv/docs/api/reference/#get-channel-information</a></p>
 
                         <a href="Structs/ChannelInformationResponse.html" class="slightly-smaller">See more</a>
                       </div>
@@ -911,7 +929,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Object representing channel information from the server: <a href="https://dev.twitch.tv/docs/api/reference/#get-channel-information">https://dev.twitch.tv/docs/api/reference/#get-channel-information</a></p>
 
                         <a href="Structs/ChannelInformation.html" class="slightly-smaller">See more</a>
                       </div>
@@ -995,7 +1013,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>AutoMod Status response object: <a href="https://dev.twitch.tv/docs/api/reference/#check-automod-status">https://dev.twitch.tv/docs/api/reference/#check-automod-status</a></p>
 
                         <a href="Structs/CheckAutoModStatusResponse.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1023,7 +1041,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Part of the <code>AutoModStatusResponse</code> from <a href="https://dev.twitch.tv/docs/api/reference/#check-automod-status">https://dev.twitch.tv/docs/api/reference/#check-automod-status</a></p>
 
                         <a href="Structs/CheckAutoModeStatus.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1051,7 +1069,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Response object of available cheermotes: <a href="https://dev.twitch.tv/docs/api/reference/#get-cheermotes">https://dev.twitch.tv/docs/api/reference/#get-cheermotes</a></p>
 
                         <a href="Structs/CheermoteResponse.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1079,7 +1097,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Individual cheermote object from: <a href="https://dev.twitch.tv/docs/api/reference/#get-cheermotes">https://dev.twitch.tv/docs/api/reference/#get-cheermotes</a></p>
 
                         <a href="Structs/Cheermote.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1107,7 +1125,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Individual cheermote data object, contains the cheermote and associated data: <a href="https://dev.twitch.tv/docs/api/reference/#get-cheermotes">https://dev.twitch.tv/docs/api/reference/#get-cheermotes</a></p>
 
                         <a href="Structs/CheermoteResponseData.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1191,7 +1209,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Code status response: <a href="https://dev.twitch.tv/docs/api/reference/#get-code-status">https://dev.twitch.tv/docs/api/reference/#get-code-status</a></p>
 
                         <a href="Structs/CodeStatusResponse.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1219,7 +1237,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Code status object returned from the server as part of the <code><a href="Structs/CodeStatusResponse.html">CodeStatusResponse</a></code> <a href="https://dev.twitch.tv/docs/api/reference/#get-code-status">https://dev.twitch.tv/docs/api/reference/#get-code-status</a></p>
 
                         <a href="Structs/CodeStatus.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1247,7 +1265,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Response object for StartCommercial Request  see <a href="https://dev.twitch.tv/docs/api/reference/#start-commercial">https://dev.twitch.tv/docs/api/reference/#start-commercial</a></p>
 
                         <a href="Structs/CommercialResponse.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1275,7 +1293,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Inner commercial object represented by the StartCommercial API <a href="https://dev.twitch.tv/docs/api/reference/#start-commercial">https://dev.twitch.tv/docs/api/reference/#start-commercial</a></p>
 
                         <a href="Structs/Commercial.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1359,7 +1377,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Response from the server when issueing a create stream marker request see: <a href="https://dev.twitch.tv/docs/api/reference/#create-stream-marker">https://dev.twitch.tv/docs/api/reference/#create-stream-marker</a></p>
 
                         <a href="Structs/CreateStreamMarkerResponse.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1387,7 +1405,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Data object part of <code><a href="Structs/CreateStreamMarkerResponse.html">CreateStreamMarkerResponse</a></code>see: <a href="https://dev.twitch.tv/docs/api/reference/#create-stream-marker">https://dev.twitch.tv/docs/api/reference/#create-stream-marker</a></p>
 
                         <a href="Structs/CreateStreamMarker.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1583,7 +1601,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>RewardRedemption Response Object From <a href="https://dev.twitch.tv/docs/api/reference/#get-custom-reward-redemption">https://dev.twitch.tv/docs/api/reference/#get-custom-reward-redemption</a></p>
 
                         <a href="Structs/CustomRewardRedemptionResponse.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1611,7 +1629,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Specific reward info returned from <a href="https://dev.twitch.tv/docs/api/reference/#get-custom-reward-redemption">https://dev.twitch.tv/docs/api/reference/#get-custom-reward-redemption</a></p>
 
                         <a href="Structs/RewardInfo.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1639,7 +1657,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Reward object as part of the <code><a href="Structs/CustomRewardRedemptionResponse.html">CustomRewardRedemptionResponse</a></code> from <a href="https://dev.twitch.tv/docs/api/reference/#get-custom-reward-redemption">https://dev.twitch.tv/docs/api/reference/#get-custom-reward-redemption</a></p>
 
                         <a href="Structs/CustomRewardRedemption.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1657,9 +1675,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:16TwitchAPIWrapper17EmptyPostResponseV"></a>
-                    <a name="//apple_ref/swift/Struct/EmptyPostResponse" class="dashAnchor"></a>
-                    <a class="token" href="#/s:16TwitchAPIWrapper17EmptyPostResponseV">EmptyPostResponse</a>
+                    <a name="/s:16TwitchAPIWrapper19DeleteVideoResponseV"></a>
+                    <a name="//apple_ref/swift/Struct/DeleteVideoResponse" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16TwitchAPIWrapper19DeleteVideoResponseV">DeleteVideoResponse</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1667,14 +1685,43 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Response object for the delete video request see: <a href="https://dev.twitch.tv/docs/api/reference/#delete-videos">https://dev.twitch.tv/docs/api/reference/#delete-videos</a></p>
+
+                        <a href="Structs/DeleteVideoResponse.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">DeleteVideoResponse</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16TwitchAPIWrapper13EmptyResponseV"></a>
+                    <a name="//apple_ref/swift/Struct/EmptyResponse" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16TwitchAPIWrapper13EmptyResponseV">EmptyResponse</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Dummy object to feed into the system. This is probably not the best approach, but
+it represents when you respect the server to return No Content</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">EmptyPostResponse</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">EmptyResponse</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
 
                         </div>
                       </div>
@@ -1694,7 +1741,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Response object from the twitch api modeling Entitlements: <a href="https://dev.twitch.tv/docs/api/reference/#get-drops-entitlements">https://dev.twitch.tv/docs/api/reference/#get-drops-entitlements</a></p>
 
                         <a href="Structs/EntitlementResponse.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1722,7 +1769,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Entitlement objects as part of the <code><a href="Structs/EntitlementResponse.html">EntitlementResponse</a></code> from the    server: <a href="https://dev.twitch.tv/docs/api/reference/#get-drops-entitlements">https://dev.twitch.tv/docs/api/reference/#get-drops-entitlements</a></p>
 
                         <a href="Structs/Entitlement.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1750,7 +1797,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>General event subscription response for get, create, and delete requests: <a href="https://dev.twitch.tv/docs/api/reference/#create-eventsub-subscription">https://dev.twitch.tv/docs/api/reference/#create-eventsub-subscription</a></p>
 
                         <a href="Structs/EventSubscriptionResponse.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1778,7 +1825,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Event data returned as part of the <code>EventSubscription</code> request: <a href="https://dev.twitch.tv/docs/api/reference/#create-eventsub-subscription">https://dev.twitch.tv/docs/api/reference/#create-eventsub-subscription</a></p>
 
                         <a href="Structs/EventSubscription.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1806,7 +1853,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Response object for ExtensionAnalytics Endpoint  see: <a href="https://dev.twitch.tv/docs/api/reference/#get-extension-analytics">https://dev.twitch.tv/docs/api/reference/#get-extension-analytics</a></p>
 
                         <a href="Structs/ExtensionAnalyticsResponse.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1834,7 +1881,8 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Individual ExtensionAnalytics object representing the individual data from the
+ExtensionAnalytics Endpoint see: <a href="https://dev.twitch.tv/docs/api/reference/#get-extension-analytics">https://dev.twitch.tv/docs/api/reference/#get-extension-analytics</a></p>
 
                         <a href="Structs/ExtensionAnalytics.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1862,7 +1910,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Respone object for the extension transactions request: <a href="https://dev.twitch.tv/docs/api/reference/#get-extension-transactions">https://dev.twitch.tv/docs/api/reference/#get-extension-transactions</a></p>
 
                         <a href="Structs/ExtensionTransactionsResponse.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1890,7 +1938,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Individual extension transaction object as part of the <code><a href="Structs/ExtensionTransactionsRequest.html">ExtensionTransactionsRequest</a></code> see: <a href="https://dev.twitch.tv/docs/api/reference/#get-extension-transactions">https://dev.twitch.tv/docs/api/reference/#get-extension-transactions</a></p>
 
                         <a href="Structs/ExtensionTransaction.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1918,7 +1966,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>ProductData related to an extension transaction see: <a href="https://dev.twitch.tv/docs/api/reference/#get-extension-transactions">https://dev.twitch.tv/docs/api/reference/#get-extension-transactions</a></p>
 
                         <a href="Structs/ProductData.html" class="slightly-smaller">See more</a>
                       </div>
@@ -1946,7 +1994,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Data related to an extenstion transaction: <a href="https://dev.twitch.tv/docs/api/reference/#get-extension-transactions">https://dev.twitch.tv/docs/api/reference/#get-extension-transactions</a></p>
 
                         <a href="Structs/ExtensionTransactionCost.html" class="slightly-smaller">See more</a>
                       </div>
@@ -2030,7 +2078,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>GameAnalyticsResponse models the response from <a href="https://dev.twitch.tv/docs/api/reference/#get-game-analytics">https://dev.twitch.tv/docs/api/reference/#get-game-analytics</a></p>
 
                         <a href="Structs/GameAnalyticsResponse.html" class="slightly-smaller">See more</a>
                       </div>
@@ -2198,7 +2246,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Response object representing entries on the leaderboard see: <a href="https://dev.twitch.tv/docs/api/reference/#get-bits-leaderboard">https://dev.twitch.tv/docs/api/reference/#get-bits-leaderboard</a></p>
 
                         <a href="Structs/LeaderboardResponse.html" class="slightly-smaller">See more</a>
                       </div>
@@ -2216,9 +2264,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:16TwitchAPIWrapper9DateRangeV"></a>
-                    <a name="//apple_ref/swift/Struct/DateRange" class="dashAnchor"></a>
-                    <a class="token" href="#/s:16TwitchAPIWrapper9DateRangeV">DateRange</a>
+                    <a name="/s:16TwitchAPIWrapper11EVDateRangeV"></a>
+                    <a name="//apple_ref/swift/Struct/EVDateRange" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16TwitchAPIWrapper11EVDateRangeV">EVDateRange</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -2226,15 +2274,15 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Helper object to model a date range server request</p>
 
-                        <a href="Structs/DateRange.html" class="slightly-smaller">See more</a>
+                        <a href="Structs/EVDateRange.html" class="slightly-smaller">See more</a>
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">DateRange</span> <span class="p">:</span> <span class="kt">Codable</span><span class="p">,</span> <span class="kt">Equatable</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">EVDateRange</span> <span class="p">:</span> <span class="kt">Codable</span><span class="p">,</span> <span class="kt">Equatable</span></code></pre>
 
                         </div>
                       </div>
@@ -2254,7 +2302,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Object representing individual entries of the leadersboard see: <a href="https://dev.twitch.tv/docs/api/reference/#get-bits-leaderboard">https://dev.twitch.tv/docs/api/reference/#get-bits-leaderboard</a></p>
 
                         <a href="Structs/LeaderboardEntry.html" class="slightly-smaller">See more</a>
                       </div>
@@ -2478,7 +2526,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Response object for stream request: <a href="https://dev.twitch.tv/docs/api/reference/#get-followed-streams">https://dev.twitch.tv/docs/api/reference/#get-followed-streams</a></p>
 
                         <a href="Structs/StreamResponse.html" class="slightly-smaller">See more</a>
                       </div>
@@ -2506,7 +2554,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Pagination object used for certain API responses</p>
 
                         <a href="Structs/Paginate.html" class="slightly-smaller">See more</a>
                       </div>
@@ -2534,7 +2582,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>underlying stream object see <code><a href="Structs/StreamResponse.html">StreamResponse</a></code>  and <a href="https://dev.twitch.tv/docs/api/reference/#get-followed-streams">https://dev.twitch.tv/docs/api/reference/#get-followed-streams</a></p>
 
                         <a href="Structs/Stream.html" class="slightly-smaller">See more</a>
                       </div>
@@ -2618,7 +2666,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Response object see: <a href="https://dev.twitch.tv/docs/api/reference/#get-stream-markers">https://dev.twitch.tv/docs/api/reference/#get-stream-markers</a></p>
 
                         <a href="Structs/StreamMarkerResponse.html" class="slightly-smaller">See more</a>
                       </div>
@@ -2646,7 +2694,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Marker as part of the <code><a href="Structs/StreamMarkerResponse.html">StreamMarkerResponse</a></code> from the server: <a href="https://dev.twitch.tv/docs/api/reference/#get-stream-markers">https://dev.twitch.tv/docs/api/reference/#get-stream-markers</a></p>
 
                         <a href="Structs/Marker.html" class="slightly-smaller">See more</a>
                       </div>
@@ -2674,7 +2722,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Video object as part of the <code><a href="Structs/StreamMarkerResponse.html">StreamMarkerResponse</a></code> from the server: <a href="https://dev.twitch.tv/docs/api/reference/#get-stream-markers">https://dev.twitch.tv/docs/api/reference/#get-stream-markers</a></p>
 
                         <a href="Structs/StreamVideo.html" class="slightly-smaller">See more</a>
                       </div>
@@ -2702,7 +2750,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>StreamMarker as part of the<code><a href="Structs/StreamMarkerResponse.html">StreamMarkerResponse</a></code> from the server: <a href="https://dev.twitch.tv/docs/api/reference/#get-stream-markers">https://dev.twitch.tv/docs/api/reference/#get-stream-markers</a></p>
 
                         <a href="Structs/StreamMarker.html" class="slightly-smaller">See more</a>
                       </div>
@@ -2786,7 +2834,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Response Object for <a href="https://dev.twitch.tv/docs/api/reference/#get-teams">https://dev.twitch.tv/docs/api/reference/#get-teams</a></p>
 
                         <a href="Structs/TeamResponse.html" class="slightly-smaller">See more</a>
                       </div>
@@ -2814,7 +2862,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Type as part of the <code><a href="Structs/TeamResponse.html">TeamResponse</a></code> object from Twitch: <a href="https://dev.twitch.tv/docs/api/reference/#get-teams">https://dev.twitch.tv/docs/api/reference/#get-teams</a></p>
 
                         <a href="Structs/TeamUser.html" class="slightly-smaller">See more</a>
                       </div>
@@ -2842,7 +2890,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Specific team object as part of the <code><a href="Structs/TeamResponse.html">TeamResponse</a></code> object from Twitch: <a href="https://dev.twitch.tv/docs/api/reference/#get-teams">https://dev.twitch.tv/docs/api/reference/#get-teams</a></p>
 
                         <a href="Structs/Team.html" class="slightly-smaller">See more</a>
                       </div>
@@ -2851,6 +2899,62 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Team</span> <span class="p">:</span> <span class="kt">Codable</span><span class="p">,</span> <span class="kt">Equatable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16TwitchAPIWrapper25UpdateEntitlementResponseV"></a>
+                    <a name="//apple_ref/swift/Struct/UpdateEntitlementResponse" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16TwitchAPIWrapper25UpdateEntitlementResponseV">UpdateEntitlementResponse</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Response Object for <a href="https://dev.twitch.tv/docs/api/reference/#update-drops-entitlements">https://dev.twitch.tv/docs/api/reference/#update-drops-entitlements</a></p>
+
+                        <a href="Structs/UpdateEntitlementResponse.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">UpdateEntitlementResponse</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16TwitchAPIWrapper18UpdatedEntitlementV"></a>
+                    <a name="//apple_ref/swift/Struct/UpdatedEntitlement" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16TwitchAPIWrapper18UpdatedEntitlementV">UpdatedEntitlement</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specific updated entitlement object as part of the <code><a href="Structs/UpdateEntitlementResponse.html">UpdateEntitlementResponse</a></code> object from Twitch: <a href="https://dev.twitch.tv/docs/api/reference/#update-drops-entitlements">https://dev.twitch.tv/docs/api/reference/#update-drops-entitlements</a></p>
+
+                        <a href="Structs/UpdatedEntitlement.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">UpdatedEntitlement</span> <span class="p">:</span> <span class="kt">Codable</span><span class="p">,</span> <span class="kt">Equatable</span></code></pre>
 
                         </div>
                       </div>
@@ -2926,7 +3030,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Response object for User Active Extensions see <a href="https://dev.twitch.tv/docs/api/reference/#update-user-extensions">https://dev.twitch.tv/docs/api/reference/#update-user-extensions</a></p>
 
                         <a href="Structs/UserActiveExtensionResponse.html" class="slightly-smaller">See more</a>
                       </div>
@@ -2954,7 +3058,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>An &ldquo;Extension&rdquo; This reusable object represents the different extensions</p>
 
                         <a href="Structs/ActiveExtensions.html" class="slightly-smaller">See more</a>
                       </div>
@@ -2982,7 +3086,8 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Struct containing data from API request, each section is formatted as [String:ActiveExtension] as the
+string key comes from the server</p>
 
                         <a href="Structs/ExtensionData.html" class="slightly-smaller">See more</a>
                       </div>
@@ -3066,7 +3171,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Response object for UserExtensions see: <a href="https://dev.twitch.tv/docs/api/reference/#get-user-extensions">https://dev.twitch.tv/docs/api/reference/#get-user-extensions</a></p>
 
                         <a href="Structs/UserExtensionResponse.html" class="slightly-smaller">See more</a>
                       </div>
@@ -3094,7 +3199,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Extension object that is part of the extension response see: <a href="https://dev.twitch.tv/docs/api/reference/#get-user-extensions">https://dev.twitch.tv/docs/api/reference/#get-user-extensions</a></p>
 
                         <a href="Structs/Extension.html" class="slightly-smaller">See more</a>
                       </div>
@@ -3178,7 +3283,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Response object for API request: <a href="https://dev.twitch.tv/docs/api/reference/#check-user-subscription">https://dev.twitch.tv/docs/api/reference/#check-user-subscription</a></p>
 
                         <a href="Structs/UserSubscriptionResponse.html" class="slightly-smaller">See more</a>
                       </div>
@@ -3206,7 +3311,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>User subscription portion of the response object from <a href="https://dev.twitch.tv/docs/api/reference/#check-user-subscription">https://dev.twitch.tv/docs/api/reference/#check-user-subscription</a></p>
 
                         <a href="Structs/UserSubscription.html" class="slightly-smaller">See more</a>
                       </div>
@@ -3234,7 +3339,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Specific type on the Video response object see <a href="https://dev.twitch.tv/docs/api/reference/#get-videos">https://dev.twitch.tv/docs/api/reference/#get-videos</a></p>
 
                       </div>
                       <div class="declaration">
@@ -3261,7 +3366,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Wrapper object for the get videos request see <a href="https://dev.twitch.tv/docs/api/reference/#get-videos">https://dev.twitch.tv/docs/api/reference/#get-videos</a></p>
 
                         <a href="Structs/VideoResponse.html" class="slightly-smaller">See more</a>
                       </div>
@@ -3289,7 +3394,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Video response object see <a href="https://dev.twitch.tv/docs/api/reference/#get-videos">https://dev.twitch.tv/docs/api/reference/#get-videos</a></p>
 
                         <a href="Structs/Video.html" class="slightly-smaller">See more</a>
                       </div>
@@ -3317,7 +3422,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>WebhookSubscriptionResponse object see: <a href="https://dev.twitch.tv/docs/api/reference/#get-webhook-subscriptions">https://dev.twitch.tv/docs/api/reference/#get-webhook-subscriptions</a></p>
 
                         <a href="Structs/WebhookSubscriptionResponse.html" class="slightly-smaller">See more</a>
                       </div>
@@ -3345,7 +3450,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>WebhookSubscription as part of the WebhookSubscriptionResponse object: <a href="https://dev.twitch.tv/docs/api/reference/#get-webhook-subscriptions">https://dev.twitch.tv/docs/api/reference/#get-webhook-subscriptions</a></p>
 
                         <a href="Structs/WebhookSubscription.html" class="slightly-smaller">See more</a>
                       </div>
@@ -4217,7 +4322,7 @@ Create clips request see <a href="https://dev.twitch.tv/docs/api/reference/#crea
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Get stream markers  request see <a href="https://dev.twitch.tv/docs/api/reference/#get-stream-key">https://dev.twitch.tv/docs/api/reference/#get-stream-key</a></p>
+                        <p>Get stream markers  request see <a href="https://dev.twitch.tv/docs/api/reference/#get-stream-markers">https://dev.twitch.tv/docs/api/reference/#get-stream-markers</a></p>
 
                         <a href="Structs/GetStreamMarkersRequest.html" class="slightly-smaller">See more</a>
                       </div>
@@ -4358,7 +4463,7 @@ and <a href="https://dev.twitch.tv/docs/api/reference/#delete-user-follows">http
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Post request to redeem a code:  <a href="https://dev.twitch.tv/docs/api/reference/#redeem-code">https://dev.twitch.tv/docs/api/reference/#redeem-code</a></p>
 
                         <a href="Structs/RedeemCodeRequest.html" class="slightly-smaller">See more</a>
                       </div>
@@ -4386,7 +4491,7 @@ and <a href="https://dev.twitch.tv/docs/api/reference/#delete-user-follows">http
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Object for <a href="https://dev.twitch.tv/docs/api/reference/#replace-stream-tags">https://dev.twitch.tv/docs/api/reference/#replace-stream-tags</a></p>
 
                         <a href="Structs/ReplaceStreamTagRequest.html" class="slightly-smaller">See more</a>
                       </div>
@@ -4628,6 +4733,34 @@ and <a href="https://dev.twitch.tv/docs/api/reference/#delete-user-follows">http
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/s:16TwitchAPIWrapper30UpdateDropsEntitlementsRequestV"></a>
+                    <a name="//apple_ref/swift/Struct/UpdateDropsEntitlementsRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16TwitchAPIWrapper30UpdateDropsEntitlementsRequestV">UpdateDropsEntitlementsRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Update Drops Entitlements: <a href="https://dev.twitch.tv/docs/api/reference/#update-drops-entitlements">https://dev.twitch.tv/docs/api/reference/#update-drops-entitlements</a></p>
+
+                        <a href="Structs/UpdateDropsEntitlementsRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">UpdateDropsEntitlementsRequest</span> <span class="p">:</span> <span class="kt"><a href="Protocols/JSONConstructableRequest.html">JSONConstructableRequest</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/s:16TwitchAPIWrapper30UpdateEventSubscriptionRequestV"></a>
                     <a name="//apple_ref/swift/Struct/UpdateEventSubscriptionRequest" class="dashAnchor"></a>
                     <a class="token" href="#/s:16TwitchAPIWrapper30UpdateEventSubscriptionRequestV">UpdateEventSubscriptionRequest</a>
@@ -4666,7 +4799,8 @@ and <a href="https://dev.twitch.tv/docs/api/reference/#delete-user-follows">http
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Update user extension request see <a href="https://dev.twitch.tv/docs/api/reference/#update-user-extensions">https://dev.twitch.tv/docs/api/reference/#update-user-extensions</a></p>
+                        <p>Update user extension request see <a href="https://dev.twitch.tv/docs/api/reference/#update-user-extensions">https://dev.twitch.tv/docs/api/reference/#update-user-extensions</a>
+Because the data object is complicate just pass in the data, this is in contrast to the other requests which serialize the data for you</p>
 
                         <a href="Structs/UpdateUserExtensionsRequest.html" class="slightly-smaller">See more</a>
                       </div>
@@ -4910,7 +5044,7 @@ and <a href="https://dev.twitch.tv/docs/api/reference/#delete-user-follows">http
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="https://github.com/epv44/TwitchAPIWrapper" target="_blank" rel="external">epv44</a>. All rights reserved. (Last updated: 2021-05-25)</p>
+          <p>&copy; 2021 <a class="link" href="https://github.com/epv44/TwitchAPIWrapper" target="_blank" rel="external">epv44</a>. All rights reserved. (Last updated: 2021-08-04)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

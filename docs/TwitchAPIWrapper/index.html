@@ -16,7 +16,7 @@
     <a title="TwitchAPIWrapper  Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="index.html">TwitchAPIWrapper 0.1.0 Docs</a> (11% documented)</p>
+        <p><a href="index.html">TwitchAPIWrapper 0.1.0 Docs</a> (20% documented)</p>
         <p class="header-right">
           <form role="search" action="search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
@@ -61,6 +61,9 @@
                 <a href="Enums/CodeSuccessStatus.html">CodeSuccessStatus</a>
               </li>
               <li class="nav-group-task">
+                <a href="Enums/EntitlementFulfillmentStatus.html">EntitlementFulfillmentStatus</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Enums/ExtensionType.html">ExtensionType</a>
               </li>
               <li class="nav-group-task">
@@ -83,6 +86,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="Enums/StreamType.html">StreamType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/UpdatedEntitlementStatus.html">UpdatedEntitlementStatus</a>
               </li>
               <li class="nav-group-task">
                 <a href="Enums/UserType.html">UserType</a>
@@ -260,19 +266,22 @@
                 <a href="Structs/CustomRewardRequest.html">CustomRewardRequest</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/DateRange.html">DateRange</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="Structs/DeleteEventSubSubscriptionRequest.html">DeleteEventSubSubscriptionRequest</a>
               </li>
               <li class="nav-group-task">
                 <a href="Structs/DeleteVideoRequest.html">DeleteVideoRequest</a>
               </li>
               <li class="nav-group-task">
+                <a href="Structs/DeleteVideoResponse.html">DeleteVideoResponse</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Structs/DropsEntitlementRequest.html">DropsEntitlementRequest</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs.html#/s:16TwitchAPIWrapper17EmptyPostResponseV">EmptyPostResponse</a>
+                <a href="Structs/EVDateRange.html">EVDateRange</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs.html#/s:16TwitchAPIWrapper13EmptyResponseV">EmptyResponse</a>
               </li>
               <li class="nav-group-task">
                 <a href="Structs/Entitlement.html">Entitlement</a>
@@ -509,10 +518,19 @@
                 <a href="Structs/UnblockUserRequest.html">UnblockUserRequest</a>
               </li>
               <li class="nav-group-task">
+                <a href="Structs/UpdateDropsEntitlementsRequest.html">UpdateDropsEntitlementsRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/UpdateEntitlementResponse.html">UpdateEntitlementResponse</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Structs/UpdateEventSubscriptionRequest.html">UpdateEventSubscriptionRequest</a>
               </li>
               <li class="nav-group-task">
                 <a href="Structs/UpdateUserExtensionsRequest.html">UpdateUserExtensionsRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/UpdatedEntitlement.html">UpdatedEntitlement</a>
               </li>
               <li class="nav-group-task">
                 <a href="Structs/User.html">User</a>
@@ -611,56 +629,56 @@ it, simply add the following line to your Podfile:</p>
 <tr>
 <td>Start Commercial</td>
 <td>CommercialRequest</td>
-<td></td>
+<td>CommercialResponse</td>
 <td style="text-align: center">✅</td>
 </tr>
 <tr>
 <td>Get Extension Analytics</td>
-<td>StartCommercialRequest</td>
-<td></td>
+<td>ExtensionAnalyticsRequest</td>
+<td>ExtensionAnalyticsResponse</td>
 <td style="text-align: center">✅</td>
 </tr>
 <tr>
 <td>Get Game Analytics</td>
 <td>GameAnalyticsRequest</td>
-<td></td>
+<td>GameAnalyticsResponse</td>
 <td style="text-align: center">✅</td>
 </tr>
 <tr>
 <td>Get Bits Leaderboard</td>
 <td>LeaderboardRequest</td>
-<td></td>
+<td>LeaderboardResponse</td>
 <td style="text-align: center">✅</td>
 </tr>
 <tr>
 <td>Get Cheermotes</td>
 <td>CheermoteRequest</td>
-<td></td>
+<td>CheermoteResponse</td>
 <td style="text-align: center">✅</td>
 </tr>
 <tr>
 <td>Get Extension Transactions</td>
 <td>ExtensionTransactionsRequest</td>
-<td>✅</td>
-<td style="text-align: center"></td>
+<td>ExtensionTransactionsResponse</td>
+<td style="text-align: center">✅</td>
 </tr>
 <tr>
 <td>Get Channel Information</td>
 <td>ChannelInformationRequest</td>
-<td>✅</td>
-<td style="text-align: center"></td>
+<td>ChannelInformationResponse</td>
+<td style="text-align: center">✅</td>
 </tr>
 <tr>
 <td>Modify Channel Information</td>
 <td>ModifyChannelInformationRequest</td>
-<td>✅</td>
-<td style="text-align: center"></td>
+<td>EmptyResponse</td>
+<td style="text-align: center">✅</td>
 </tr>
 <tr>
 <td>Get Channel Editors</td>
 <td>ChannelEditorsRequest</td>
-<td>✅</td>
-<td style="text-align: center"></td>
+<td>ChannelEditorResponse</td>
+<td style="text-align: center">✅</td>
 </tr>
 <tr>
 <td>Create Custom Rewards</td>
@@ -671,7 +689,7 @@ it, simply add the following line to your Podfile:</p>
 <tr>
 <td>Delete Custom Reward</td>
 <td>CustomRewardRequest</td>
-<td>EmptyPostResponse</td>
+<td>EmptyResponse</td>
 <td style="text-align: center">✅</td>
 </tr>
 <tr>
@@ -723,6 +741,12 @@ it, simply add the following line to your Podfile:</p>
 <td style="text-align: center">✅</td>
 </tr>
 <tr>
+<td>Update Drops Entitlements</td>
+<td>UpdateDropsEntitlementsRequest</td>
+<td>UpdateEntitlementResponse</td>
+<td style="text-align: center">✅</td>
+</tr>
+<tr>
 <td>Redeem Code</td>
 <td>RedeemCodeRequest</td>
 <td>CodeStatusResponse</td>
@@ -737,7 +761,7 @@ it, simply add the following line to your Podfile:</p>
 <tr>
 <td>Delete EventSub Subscription</td>
 <td>DeleteEventSubSubscriptionRequest</td>
-<td>EmptyPostResponse</td>
+<td>EmptyResponse</td>
 <td style="text-align: center">✅</td>
 </tr>
 <tr>
@@ -749,14 +773,14 @@ it, simply add the following line to your Podfile:</p>
 <tr>
 <td>Get Top Games</td>
 <td>TopGameRequest</td>
-<td>✅</td>
-<td style="text-align: center"></td>
+<td>GetGamesResponse</td>
+<td style="text-align: center">✅</td>
 </tr>
 <tr>
 <td>Get Games</td>
 <td>GameRequest</td>
-<td>✅</td>
-<td style="text-align: center"></td>
+<td>GetGamesResponse</td>
+<td style="text-align: center">✅</td>
 </tr>
 <tr>
 <td>Get Hype Train Events</td>
@@ -773,7 +797,7 @@ it, simply add the following line to your Podfile:</p>
 <tr>
 <td>Manage Held AutoMod Messages</td>
 <td>ManageHeldAutoModStatusRequest</td>
-<td>EmptyPostResponse</td>
+<td>EmptyResponse</td>
 <td style="text-align: center">✅</td>
 </tr>
 <tr>
@@ -869,7 +893,7 @@ it, simply add the following line to your Podfile:</p>
 <tr>
 <td>Replace Stream Tags</td>
 <td>ReplaceStreamTagRequest</td>
-<td>EmptyPostResponse</td>
+<td>EmptyResponse</td>
 <td style="text-align: center">✅</td>
 </tr>
 <tr>
@@ -905,13 +929,13 @@ it, simply add the following line to your Podfile:</p>
 <tr>
 <td>Create User Follows</td>
 <td>ModifyUserFollowRequest</td>
-<td>EmptyPostResponse</td>
+<td>EmptyResponse</td>
 <td style="text-align: center">✅</td>
 </tr>
 <tr>
 <td>Delete User Follows</td>
 <td>ModifyUserFollowRequest</td>
-<td>EmptyPostResponse</td>
+<td>EmptyResponse</td>
 <td style="text-align: center">✅</td>
 </tr>
 <tr>
@@ -923,13 +947,13 @@ it, simply add the following line to your Podfile:</p>
 <tr>
 <td>Block User</td>
 <td>BlockUserRequest</td>
-<td>EmptyPostRequest</td>
+<td>EmptyRequest</td>
 <td style="text-align: center">✅</td>
 </tr>
 <tr>
 <td>Unblock User</td>
 <td>UnblockUserRequest</td>
-<td>EmptyPostRequest</td>
+<td>EmptyRequest</td>
 <td style="text-align: center">✅</td>
 </tr>
 <tr>
@@ -959,7 +983,7 @@ it, simply add the following line to your Podfile:</p>
 <tr>
 <td>Delete Videos</td>
 <td>DeleteVideoRequest</td>
-<td>EmptyPostResponse</td>
+<td>DeleteVideoResponse</td>
 <td style="text-align: center">✅</td>
 </tr>
 <tr>
@@ -967,6 +991,114 @@ it, simply add the following line to your Podfile:</p>
 <td>WebhookSubscriptionsRequest</td>
 <td>WebhookSubscriptionsResponse</td>
 <td style="text-align: center">✅</td>
+</tr>
+<tr>
+<td>End Prediction</td>
+<td>EndPredictionRequest</td>
+<td>EndPredictionResponse</td>
+<td style="text-align: center">❌</td>
+</tr>
+<tr>
+<td>Create Prediction</td>
+<td>CreatePredictionRequest</td>
+<td>CreatePredictionResponse</td>
+<td style="text-align: center">❌</td>
+</tr>
+<tr>
+<td>Get Predictions</td>
+<td>GetPredictionRequest</td>
+<td>GetPredictionResponse</td>
+<td style="text-align: center">❌</td>
+</tr>
+<tr>
+<td>End Poll</td>
+<td>EndPollRequest</td>
+<td>EndPollResponse</td>
+<td style="text-align: center">❌</td>
+</tr>
+<tr>
+<td>Create Poll</td>
+<td>CreatePollRequest</td>
+<td>CreatePollResponse</td>
+<td style="text-align: center">❌</td>
+</tr>
+<tr>
+<td>Get Polls</td>
+<td>GetPollRequest</td>
+<td>GetPollResponse</td>
+<td style="text-align: center">❌</td>
+</tr>
+<tr>
+<td>Get Extension Configuration</td>
+<td>N/A</td>
+<td>N/A</td>
+<td style="text-align: center">❌</td>
+</tr>
+<tr>
+<td>Set Extension Configuration Segment</td>
+<td>N/A</td>
+<td>N/A</td>
+<td style="text-align: center">❌</td>
+</tr>
+<tr>
+<td>Set Extension Required Configuration</td>
+<td>N/A</td>
+<td>N/A</td>
+<td style="text-align: center">❌</td>
+</tr>
+<tr>
+<td>Send Extension PubSub Message</td>
+<td>N/A</td>
+<td>N/A</td>
+<td style="text-align: center">❌</td>
+</tr>
+<tr>
+<td>Get Live Channels</td>
+<td>N/A</td>
+<td>N/A</td>
+<td style="text-align: center">❌</td>
+</tr>
+<tr>
+<td>Get Extensions Secrets</td>
+<td>N/A</td>
+<td>N/A</td>
+<td style="text-align: center">❌</td>
+</tr>
+<tr>
+<td>Create Extensions Secrets</td>
+<td>N/A</td>
+<td>N/A</td>
+<td style="text-align: center">❌</td>
+</tr>
+<tr>
+<td>Send Extension Chat Message</td>
+<td>N/A</td>
+<td>N/A</td>
+<td style="text-align: center">❌</td>
+</tr>
+<tr>
+<td>Get Extensions</td>
+<td>N/A</td>
+<td>N/A</td>
+<td style="text-align: center">❌</td>
+</tr>
+<tr>
+<td>Get Released Extensions</td>
+<td>N/A</td>
+<td>N/A</td>
+<td style="text-align: center">❌</td>
+</tr>
+<tr>
+<td>Get Extension Bits Products</td>
+<td>N/A</td>
+<td>N/A</td>
+<td style="text-align: center">❌</td>
+</tr>
+<tr>
+<td>Update Extension Bits Product</td>
+<td>N/A</td>
+<td>N/A</td>
+<td style="text-align: center">❌</td>
 </tr>
 </tbody></table>
 <h2 id='author' class='heading'>Author</h2>
@@ -979,7 +1111,7 @@ it, simply add the following line to your Podfile:</p>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="https://github.com/epv44/TwitchAPIWrapper" target="_blank" rel="external">epv44</a>. All rights reserved. (Last updated: 2021-05-25)</p>
+          <p>&copy; 2021 <a class="link" href="https://github.com/epv44/TwitchAPIWrapper" target="_blank" rel="external">epv44</a>. All rights reserved. (Last updated: 2021-08-04)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

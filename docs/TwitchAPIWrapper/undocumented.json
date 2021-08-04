@@ -191,218 +191,197 @@
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/BroadcasterSubscriptions.swift",
-      "line": 10,
-      "symbol": "BroadcasterSubscriptionsResponse",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/BroadcasterSubscriptions.swift",
-      "line": 11,
+      "line": 12,
       "symbol": "BroadcasterSubscriptionsResponse.broadcasterSubscriptions",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/BroadcasterSubscriptions.swift",
-      "line": 12,
+      "line": 13,
       "symbol": "BroadcasterSubscriptionsResponse.pagination",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/BroadcasterSubscriptions.swift",
-      "line": 20,
-      "symbol": "BroadcasterSubscription",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/BroadcasterSubscriptions.swift",
-      "line": 21,
-      "symbol": "BroadcasterSubscription.broadcasterId",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/BroadcasterSubscriptions.swift",
-      "line": 22,
-      "symbol": "BroadcasterSubscription.broadcasterLogin",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/BroadcasterSubscriptions.swift",
-      "line": 23,
-      "symbol": "BroadcasterSubscription.broadcasterName",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/BroadcasterSubscriptions.swift",
-      "line": 24,
-      "symbol": "BroadcasterSubscription.gifterId",
+      "line": 14,
+      "symbol": "BroadcasterSubscriptionsResponse.total",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/BroadcasterSubscriptions.swift",
       "line": 25,
-      "symbol": "BroadcasterSubscription.gifterLogin",
+      "symbol": "BroadcasterSubscription.broadcasterId",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/BroadcasterSubscriptions.swift",
       "line": 26,
-      "symbol": "BroadcasterSubscription.gifterName",
+      "symbol": "BroadcasterSubscription.broadcasterLogin",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/BroadcasterSubscriptions.swift",
       "line": 27,
-      "symbol": "BroadcasterSubscription.isGift",
+      "symbol": "BroadcasterSubscription.broadcasterName",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/BroadcasterSubscriptions.swift",
       "line": 28,
-      "symbol": "BroadcasterSubscription.tier",
+      "symbol": "BroadcasterSubscription.gifterId",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/BroadcasterSubscriptions.swift",
       "line": 29,
-      "symbol": "BroadcasterSubscription.planName",
+      "symbol": "BroadcasterSubscription.gifterLogin",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/BroadcasterSubscriptions.swift",
       "line": 30,
-      "symbol": "BroadcasterSubscription.userId",
+      "symbol": "BroadcasterSubscription.gifterName",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/BroadcasterSubscriptions.swift",
       "line": 31,
-      "symbol": "BroadcasterSubscription.userName",
+      "symbol": "BroadcasterSubscription.isGift",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/BroadcasterSubscriptions.swift",
       "line": 32,
+      "symbol": "BroadcasterSubscription.tier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/BroadcasterSubscriptions.swift",
+      "line": 33,
+      "symbol": "BroadcasterSubscription.planName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/BroadcasterSubscriptions.swift",
+      "line": 34,
+      "symbol": "BroadcasterSubscription.userId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/BroadcasterSubscriptions.swift",
+      "line": 35,
+      "symbol": "BroadcasterSubscription.userName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/BroadcasterSubscriptions.swift",
+      "line": 36,
       "symbol": "BroadcasterSubscription.userLogin",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ChannelEditors.swift",
-      "line": 10,
-      "symbol": "ChannelEditorResponse",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ChannelEditors.swift",
-      "line": 11,
+      "line": 12,
       "symbol": "ChannelEditorResponse.channelsEditors",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ChannelEditors.swift",
-      "line": 18,
-      "symbol": "ChannelEditor",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ChannelEditors.swift",
-      "line": 19,
+      "line": 21,
       "symbol": "ChannelEditor.userId",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ChannelEditors.swift",
-      "line": 20,
+      "line": 22,
       "symbol": "ChannelEditor.userName",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ChannelEditors.swift",
-      "line": 21,
+      "line": 23,
       "symbol": "ChannelEditor.createdAt",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ChannelInformation.swift",
-      "line": 10,
-      "symbol": "ChannelInformationResponse",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ChannelInformation.swift",
-      "line": 11,
+      "line": 12,
       "symbol": "ChannelInformationResponse.channels",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ChannelInformation.swift",
-      "line": 18,
-      "symbol": "ChannelInformation",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ChannelInformation.swift",
-      "line": 19,
+      "line": 21,
       "symbol": "ChannelInformation.broadcasterId",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ChannelInformation.swift",
-      "line": 20,
+      "line": 22,
       "symbol": "ChannelInformation.broadcasterName",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ChannelInformation.swift",
-      "line": 21,
+      "line": 23,
       "symbol": "ChannelInformation.broadcasterLanguage",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ChannelInformation.swift",
-      "line": 22,
+      "line": 24,
+      "symbol": "ChannelInformation.broadcasterLogin",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ChannelInformation.swift",
+      "line": 25,
       "symbol": "ChannelInformation.gameId",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ChannelInformation.swift",
-      "line": 23,
+      "line": 26,
       "symbol": "ChannelInformation.gameName",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ChannelInformation.swift",
-      "line": 24,
+      "line": 27,
       "symbol": "ChannelInformation.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ChannelInformation.swift",
+      "line": 28,
+      "symbol": "ChannelInformation.delay",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
@@ -416,7 +395,7 @@
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ChannelTeam.swift",
       "line": 11,
-      "symbol": "ChannelTeamResponse.ChannelTeams",
+      "symbol": "ChannelTeamResponse.channelTeams",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
@@ -513,189 +492,147 @@
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CheckAutoModStatus.swift",
-      "line": 10,
-      "symbol": "CheckAutoModStatusResponse",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CheckAutoModStatus.swift",
-      "line": 11,
+      "line": 12,
       "symbol": "CheckAutoModStatusResponse.data",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CheckAutoModStatus.swift",
-      "line": 14,
-      "symbol": "CheckAutoModeStatus",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CheckAutoModStatus.swift",
-      "line": 15,
+      "line": 17,
       "symbol": "CheckAutoModeStatus.msgId",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CheckAutoModStatus.swift",
-      "line": 16,
+      "line": 18,
       "symbol": "CheckAutoModeStatus.isPermitted",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Cheermote.swift",
-      "line": 10,
-      "symbol": "CheermoteResponse",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Cheermote.swift",
-      "line": 11,
+      "line": 12,
       "symbol": "CheermoteResponse.responses",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Cheermote.swift",
-      "line": 18,
-      "symbol": "CheermoteType",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Cheermote.swift",
-      "line": 19,
+      "line": 21,
       "symbol": "CheermoteType.globalFirstParty",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Cheermote.swift",
-      "line": 20,
+      "line": 22,
       "symbol": "CheermoteType.globalThirdParty",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Cheermote.swift",
-      "line": 21,
+      "line": 23,
       "symbol": "CheermoteType.channelCustom",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Cheermote.swift",
-      "line": 22,
+      "line": 24,
       "symbol": "CheermoteType.displayOnly",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Cheermote.swift",
-      "line": 23,
+      "line": 25,
       "symbol": "CheermoteType.sponsored",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Cheermote.swift",
-      "line": 26,
-      "symbol": "Cheermote",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Cheermote.swift",
-      "line": 27,
+      "line": 30,
       "symbol": "Cheermote.minBits",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Cheermote.swift",
-      "line": 28,
+      "line": 31,
       "symbol": "Cheermote.id",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Cheermote.swift",
-      "line": 29,
+      "line": 32,
       "symbol": "Cheermote.color",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Cheermote.swift",
-      "line": 30,
+      "line": 33,
       "symbol": "Cheermote.images",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Cheermote.swift",
-      "line": 31,
+      "line": 34,
       "symbol": "Cheermote.canCheer",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Cheermote.swift",
-      "line": 32,
+      "line": 35,
       "symbol": "Cheermote.showInBitsCard",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Cheermote.swift",
-      "line": 35,
-      "symbol": "CheermoteResponseData",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Cheermote.swift",
-      "line": 36,
+      "line": 40,
       "symbol": "CheermoteResponseData.prefix",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Cheermote.swift",
-      "line": 37,
+      "line": 41,
       "symbol": "CheermoteResponseData.tiers",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Cheermote.swift",
-      "line": 38,
+      "line": 42,
       "symbol": "CheermoteResponseData.type",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Cheermote.swift",
-      "line": 39,
+      "line": 43,
       "symbol": "CheermoteResponseData.order",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Cheermote.swift",
-      "line": 40,
+      "line": 44,
       "symbol": "CheermoteResponseData.lastUpdated",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Cheermote.swift",
-      "line": 41,
+      "line": 45,
       "symbol": "CheermoteResponseData.isCharitable",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -716,238 +653,224 @@
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Clip.swift",
-      "line": 18,
+      "line": 12,
+      "symbol": "ClipResponse.pagination",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Clip.swift",
+      "line": 20,
       "symbol": "Clip",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Clip.swift",
-      "line": 19,
+      "line": 21,
       "symbol": "Clip.id",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Clip.swift",
-      "line": 20,
+      "line": 22,
       "symbol": "Clip.url",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Clip.swift",
-      "line": 21,
+      "line": 23,
       "symbol": "Clip.embedUrl",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Clip.swift",
-      "line": 22,
+      "line": 24,
       "symbol": "Clip.broadcasterId",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Clip.swift",
-      "line": 23,
+      "line": 25,
+      "symbol": "Clip.broadcasterName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Clip.swift",
+      "line": 26,
       "symbol": "Clip.creatorId",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Clip.swift",
-      "line": 24,
-      "symbol": "Clip.videoId",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Clip.swift",
-      "line": 25,
-      "symbol": "Clip.gameId",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Clip.swift",
-      "line": 26,
-      "symbol": "Clip.language",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Clip.swift",
       "line": 27,
-      "symbol": "Clip.title",
+      "symbol": "Clip.creatorName",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Clip.swift",
       "line": 28,
-      "symbol": "Clip.viewCount",
+      "symbol": "Clip.videoId",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Clip.swift",
       "line": 29,
-      "symbol": "Clip.createdAt",
+      "symbol": "Clip.gameId",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Clip.swift",
       "line": 30,
+      "symbol": "Clip.language",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Clip.swift",
+      "line": 31,
+      "symbol": "Clip.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Clip.swift",
+      "line": 32,
+      "symbol": "Clip.viewCount",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Clip.swift",
+      "line": 33,
+      "symbol": "Clip.createdAt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Clip.swift",
+      "line": 34,
       "symbol": "Clip.thumbnailUrl",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CodeStatus.swift",
-      "line": 10,
-      "symbol": "CodeStatusResponse",
-      "symbol_kind": "source.lang.swift.decl.struct",
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Clip.swift",
+      "line": 35,
+      "symbol": "Clip.duration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CodeStatus.swift",
-      "line": 11,
+      "line": 12,
       "symbol": "CodeStatusResponse.codeStatuses",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CodeStatus.swift",
-      "line": 18,
-      "symbol": "CodeSuccessStatus",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CodeStatus.swift",
-      "line": 19,
+      "line": 21,
       "symbol": "CodeSuccessStatus.successfullyRedeemed",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CodeStatus.swift",
-      "line": 20,
+      "line": 22,
       "symbol": "CodeSuccessStatus.alreadyClaimed",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CodeStatus.swift",
-      "line": 21,
+      "line": 23,
       "symbol": "CodeSuccessStatus.expired",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CodeStatus.swift",
-      "line": 22,
+      "line": 24,
       "symbol": "CodeSuccessStatus.userNotEligible",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CodeStatus.swift",
-      "line": 23,
+      "line": 25,
       "symbol": "CodeSuccessStatus.notFound",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CodeStatus.swift",
-      "line": 24,
+      "line": 26,
       "symbol": "CodeSuccessStatus.inactive",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CodeStatus.swift",
-      "line": 25,
+      "line": 27,
       "symbol": "CodeSuccessStatus.unused",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CodeStatus.swift",
-      "line": 26,
+      "line": 28,
       "symbol": "CodeSuccessStatus.incorrectFormat",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CodeStatus.swift",
-      "line": 27,
+      "line": 29,
       "symbol": "CodeSuccessStatus.internalError",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CodeStatus.swift",
-      "line": 30,
-      "symbol": "CodeStatus",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CodeStatus.swift",
-      "line": 31,
+      "line": 34,
       "symbol": "CodeStatus.code",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CodeStatus.swift",
-      "line": 32,
+      "line": 35,
       "symbol": "CodeStatus.status",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Commercial.swift",
-      "line": 10,
-      "symbol": "CommercialResponse",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Commercial.swift",
-      "line": 11,
-      "symbol": "CommercialResponse.commercial",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Commercial.swift",
-      "line": 18,
-      "symbol": "Commercial",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Commercial.swift",
-      "line": 19,
+      "line": 22,
       "symbol": "Commercial.length",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Commercial.swift",
-      "line": 20,
+      "line": 23,
       "symbol": "Commercial.message",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Commercial.swift",
-      "line": 21,
+      "line": 24,
       "symbol": "Commercial.retryAfter",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -989,49 +912,35 @@
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CreateStreamMarker.swift",
-      "line": 10,
-      "symbol": "CreateStreamMarkerResponse",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CreateStreamMarker.swift",
-      "line": 11,
+      "line": 12,
       "symbol": "CreateStreamMarkerResponse.data",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CreateStreamMarker.swift",
-      "line": 14,
-      "symbol": "CreateStreamMarker",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CreateStreamMarker.swift",
-      "line": 15,
+      "line": 17,
       "symbol": "CreateStreamMarker.id",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CreateStreamMarker.swift",
-      "line": 16,
+      "line": 18,
       "symbol": "CreateStreamMarker.createdAt",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CreateStreamMarker.swift",
-      "line": 17,
+      "line": 19,
       "symbol": "CreateStreamMarker.description",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CreateStreamMarker.swift",
-      "line": 18,
+      "line": 20,
       "symbol": "CreateStreamMarker.positionSeconds",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -1269,260 +1178,232 @@
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CustomRewardRedemption.swift",
-      "line": 10,
-      "symbol": "CustomRewardRedemptionResponse",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CustomRewardRedemption.swift",
-      "line": 11,
+      "line": 12,
       "symbol": "CustomRewardRedemptionResponse.rewardRedemptions",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CustomRewardRedemption.swift",
-      "line": 12,
+      "line": 13,
       "symbol": "CustomRewardRedemptionResponse.pagination",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CustomRewardRedemption.swift",
-      "line": 20,
-      "symbol": "RewardInfo",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CustomRewardRedemption.swift",
-      "line": 21,
+      "line": 23,
       "symbol": "RewardInfo.id",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CustomRewardRedemption.swift",
-      "line": 22,
+      "line": 24,
       "symbol": "RewardInfo.title",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CustomRewardRedemption.swift",
-      "line": 23,
+      "line": 25,
       "symbol": "RewardInfo.prompt",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CustomRewardRedemption.swift",
-      "line": 24,
+      "line": 26,
       "symbol": "RewardInfo.cost",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CustomRewardRedemption.swift",
-      "line": 27,
-      "symbol": "RewardStatus",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CustomRewardRedemption.swift",
-      "line": 28,
+      "line": 31,
       "symbol": "RewardStatus.CANCELED",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CustomRewardRedemption.swift",
-      "line": 28,
+      "line": 31,
       "symbol": "RewardStatus.FULFILLED",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CustomRewardRedemption.swift",
-      "line": 28,
+      "line": 31,
       "symbol": "RewardStatus.UNFULFILLED",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CustomRewardRedemption.swift",
-      "line": 31,
-      "symbol": "CustomRewardRedemption",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CustomRewardRedemption.swift",
-      "line": 32,
+      "line": 36,
       "symbol": "CustomRewardRedemption.broadcasterId",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CustomRewardRedemption.swift",
-      "line": 33,
+      "line": 37,
       "symbol": "CustomRewardRedemption.broadcasterLogin",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CustomRewardRedemption.swift",
-      "line": 34,
+      "line": 38,
       "symbol": "CustomRewardRedemption.broadcasterName",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CustomRewardRedemption.swift",
-      "line": 35,
+      "line": 39,
       "symbol": "CustomRewardRedemption.id",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CustomRewardRedemption.swift",
-      "line": 36,
+      "line": 40,
       "symbol": "CustomRewardRedemption.userLogin",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CustomRewardRedemption.swift",
-      "line": 37,
+      "line": 41,
       "symbol": "CustomRewardRedemption.userId",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CustomRewardRedemption.swift",
-      "line": 38,
+      "line": 42,
       "symbol": "CustomRewardRedemption.userName",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CustomRewardRedemption.swift",
-      "line": 39,
+      "line": 43,
       "symbol": "CustomRewardRedemption.reward",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CustomRewardRedemption.swift",
-      "line": 40,
+      "line": 44,
       "symbol": "CustomRewardRedemption.userInput",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CustomRewardRedemption.swift",
-      "line": 41,
+      "line": 45,
       "symbol": "CustomRewardRedemption.status",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/CustomRewardRedemption.swift",
-      "line": 42,
+      "line": 46,
       "symbol": "CustomRewardRedemption.redeemedAt",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/EmptyPostResponse.swift",
-      "line": 10,
-      "symbol": "EmptyPostResponse",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Entitlement.swift",
-      "line": 10,
-      "symbol": "EntitlementResponse",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Entitlement.swift",
-      "line": 11,
+      "line": 12,
       "symbol": "EntitlementResponse.entitlements",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Entitlement.swift",
-      "line": 12,
+      "line": 13,
       "symbol": "EntitlementResponse.pagination",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Entitlement.swift",
-      "line": 20,
-      "symbol": "Entitlement",
-      "symbol_kind": "source.lang.swift.decl.struct",
+      "line": 21,
+      "symbol": "EntitlementFulfillmentStatus",
+      "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Entitlement.swift",
-      "line": 21,
+      "line": 22,
+      "symbol": "EntitlementFulfillmentStatus.claimed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Entitlement.swift",
+      "line": 23,
+      "symbol": "EntitlementFulfillmentStatus.fulfilled",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Entitlement.swift",
+      "line": 28,
       "symbol": "Entitlement.id",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Entitlement.swift",
-      "line": 22,
+      "line": 29,
       "symbol": "Entitlement.benefitId",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Entitlement.swift",
-      "line": 23,
+      "line": 30,
       "symbol": "Entitlement.timestamp",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Entitlement.swift",
-      "line": 24,
+      "line": 31,
       "symbol": "Entitlement.userId",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Entitlement.swift",
-      "line": 25,
+      "line": 32,
       "symbol": "Entitlement.gameId",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/EventSubscription.swift",
-      "line": 10,
-      "symbol": "EventSubscriptionResponse",
-      "symbol_kind": "source.lang.swift.decl.struct",
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Entitlement.swift",
+      "line": 33,
+      "symbol": "Entitlement.fulfillmentStatus",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/EventSubscription.swift",
-      "line": 11,
-      "symbol": "EventSubscriptionResponse.events",
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Entitlement.swift",
+      "line": 34,
+      "symbol": "Entitlement.updatedAt",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/EventSubscription.swift",
       "line": 12,
-      "symbol": "EventSubscriptionResponse.limit",
+      "symbol": "EventSubscriptionResponse.events",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
@@ -1552,13 +1433,6 @@
       "line": 16,
       "symbol": "EventSubscriptionResponse.pagination",
       "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/EventSubscription.swift",
-      "line": 28,
-      "symbol": "EventSubscription",
-      "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
@@ -1619,72 +1493,44 @@
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionAnalytics.swift",
-      "line": 10,
-      "symbol": "ExtensionAnalyticsResponse",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionAnalytics.swift",
-      "line": 11,
+      "line": 12,
       "symbol": "ExtensionAnalyticsResponse.extensionAnalytics",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionAnalytics.swift",
-      "line": 12,
+      "line": 13,
       "symbol": "ExtensionAnalyticsResponse.pagination",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionAnalytics.swift",
-      "line": 20,
-      "symbol": "ExtensionAnalytics",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionAnalytics.swift",
-      "line": 21,
-      "symbol": "ExtensionAnalytics.endedAt",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionAnalytics.swift",
-      "line": 22,
+      "line": 24,
       "symbol": "ExtensionAnalytics.extensionId",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionAnalytics.swift",
-      "line": 23,
-      "symbol": "ExtensionAnalytics.startedAt",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionAnalytics.swift",
-      "line": 24,
+      "line": 25,
       "symbol": "ExtensionAnalytics.type",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionAnalytics.swift",
-      "line": 25,
+      "line": 26,
       "symbol": "ExtensionAnalytics.url",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionTransactions.swift",
-      "line": 11,
-      "symbol": "ExtensionTransactionsResponse",
-      "symbol_kind": "source.lang.swift.decl.struct",
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionAnalytics.swift",
+      "line": 27,
+      "symbol": "ExtensionAnalytics.dateRange",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
@@ -1703,126 +1549,133 @@
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionTransactions.swift",
-      "line": 21,
-      "symbol": "ExtensionTransaction",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionTransactions.swift",
-      "line": 22,
+      "line": 23,
       "symbol": "ExtensionTransaction.id",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionTransactions.swift",
-      "line": 23,
+      "line": 24,
       "symbol": "ExtensionTransaction.timestamp",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionTransactions.swift",
-      "line": 24,
-      "symbol": "ExtensionTransaction.broadcastId",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionTransactions.swift",
       "line": 25,
-      "symbol": "ExtensionTransaction.broadcasterLogin",
+      "symbol": "ExtensionTransaction.broadcasterId",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionTransactions.swift",
       "line": 26,
-      "symbol": "ExtensionTransaction.broadcasterName",
+      "symbol": "ExtensionTransaction.broadcasterLogin",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionTransactions.swift",
       "line": 27,
-      "symbol": "ExtensionTransaction.userId",
+      "symbol": "ExtensionTransaction.broadcasterName",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionTransactions.swift",
       "line": 28,
-      "symbol": "ExtensionTransaction.userName",
+      "symbol": "ExtensionTransaction.userId",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionTransactions.swift",
       "line": 29,
-      "symbol": "ExtensionTransaction.productType",
+      "symbol": "ExtensionTransaction.userName",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionTransactions.swift",
       "line": 30,
+      "symbol": "ExtensionTransaction.userLogin",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionTransactions.swift",
+      "line": 31,
+      "symbol": "ExtensionTransaction.productType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionTransactions.swift",
+      "line": 32,
       "symbol": "ExtensionTransaction.productData",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionTransactions.swift",
-      "line": 33,
-      "symbol": "ProductData",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionTransactions.swift",
-      "line": 34,
+      "line": 37,
       "symbol": "ProductData.sku",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionTransactions.swift",
-      "line": 35,
+      "line": 38,
       "symbol": "ProductData.cost",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionTransactions.swift",
-      "line": 36,
+      "line": 39,
       "symbol": "ProductData.displayName",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionTransactions.swift",
-      "line": 37,
+      "line": 40,
       "symbol": "ProductData.inDevelopment",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionTransactions.swift",
-      "line": 47,
-      "symbol": "ExtensionTransactionCost",
-      "symbol_kind": "source.lang.swift.decl.struct",
+      "line": 41,
+      "symbol": "ProductData.domain",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionTransactions.swift",
-      "line": 48,
+      "line": 42,
+      "symbol": "ProductData.expiration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionTransactions.swift",
+      "line": 43,
+      "symbol": "ProductData.broadcast",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionTransactions.swift",
+      "line": 58,
       "symbol": "ExtensionTransactionCost.amount",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/ExtensionTransactions.swift",
-      "line": 49,
+      "line": 59,
       "symbol": "ExtensionTransactionCost.type",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -1878,36 +1731,43 @@
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/GameAnalytics.swift",
-      "line": 10,
-      "symbol": "GameAnalyticsResponse",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/GameAnalytics.swift",
-      "line": 11,
+      "line": 12,
       "symbol": "GameAnalyticsResponse.gameAnalytics",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/GameAnalytics.swift",
-      "line": 18,
+      "line": 20,
       "symbol": "GameAnalytic",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/GameAnalytics.swift",
-      "line": 19,
+      "line": 21,
       "symbol": "GameAnalytic.gameId",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/GameAnalytics.swift",
-      "line": 20,
+      "line": 22,
       "symbol": "GameAnalytic.url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/GameAnalytics.swift",
+      "line": 23,
+      "symbol": "GameAnalytic.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/GameAnalytics.swift",
+      "line": 24,
+      "symbol": "GameAnalytic.dateRange",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
@@ -2053,161 +1913,119 @@
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/HypeTrainEvent.swift",
-      "line": 44,
+      "line": 41,
+      "symbol": "HypeTrainEventData.topContributions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/HypeTrainEvent.swift",
+      "line": 45,
       "symbol": "HypeTrainEvent",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/HypeTrainEvent.swift",
-      "line": 45,
+      "line": 46,
       "symbol": "HypeTrainEvent.id",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/HypeTrainEvent.swift",
-      "line": 46,
+      "line": 47,
       "symbol": "HypeTrainEvent.eventType",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/HypeTrainEvent.swift",
-      "line": 47,
+      "line": 48,
       "symbol": "HypeTrainEvent.eventTimestamp",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/HypeTrainEvent.swift",
-      "line": 48,
+      "line": 49,
       "symbol": "HypeTrainEvent.version",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/HypeTrainEvent.swift",
-      "line": 49,
-      "symbol": "HypeTrainEvent.eventData",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/HypeTrainEvent.swift",
       "line": 50,
-      "symbol": "HypeTrainEvent.topContributions",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/HypeTrainEvent.swift",
-      "line": 51,
-      "symbol": "HypeTrainEvent.level",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/HypeTrainEvent.swift",
-      "line": 52,
-      "symbol": "HypeTrainEvent.startedAt",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/HypeTrainEvent.swift",
-      "line": 53,
-      "symbol": "HypeTrainEvent.total",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Leaderboard.swift",
-      "line": 10,
-      "symbol": "LeaderboardResponse",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Leaderboard.swift",
-      "line": 11,
-      "symbol": "LeaderboardResponse.entries",
+      "symbol": "HypeTrainEvent.eventData",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Leaderboard.swift",
       "line": 12,
-      "symbol": "LeaderboardResponse.dateRange",
+      "symbol": "LeaderboardResponse.entries",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Leaderboard.swift",
       "line": 13,
+      "symbol": "LeaderboardResponse.dateRange",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Leaderboard.swift",
+      "line": 14,
       "symbol": "LeaderboardResponse.total",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Leaderboard.swift",
-      "line": 16,
-      "symbol": "DateRange",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Leaderboard.swift",
-      "line": 17,
-      "symbol": "DateRange.startedAt",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Leaderboard.swift",
-      "line": 18,
-      "symbol": "DateRange.endedAt",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Leaderboard.swift",
-      "line": 21,
-      "symbol": "LeaderboardEntry",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Leaderboard.swift",
-      "line": 22,
-      "symbol": "LeaderboardEntry.userId",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Leaderboard.swift",
-      "line": 23,
-      "symbol": "LeaderboardEntry.userLogin",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Leaderboard.swift",
-      "line": 24,
-      "symbol": "LeaderboardEntry.userName",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Leaderboard.swift",
       "line": 25,
-      "symbol": "LeaderboardEntry.rank",
+      "symbol": "EVDateRange.startedAt",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Leaderboard.swift",
       "line": 26,
+      "symbol": "EVDateRange.endedAt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Leaderboard.swift",
+      "line": 31,
+      "symbol": "LeaderboardEntry.userId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Leaderboard.swift",
+      "line": 32,
+      "symbol": "LeaderboardEntry.userLogin",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Leaderboard.swift",
+      "line": 33,
+      "symbol": "LeaderboardEntry.userName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Leaderboard.swift",
+      "line": 34,
+      "symbol": "LeaderboardEntry.rank",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Leaderboard.swift",
+      "line": 35,
       "symbol": "LeaderboardEntry.score",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -2432,216 +2250,188 @@
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/SearchChannel.swift",
       "line": 25,
-      "symbol": "SearchChannel.id",
+      "symbol": "SearchChannel.gameName",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/SearchChannel.swift",
       "line": 26,
+      "symbol": "SearchChannel.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/SearchChannel.swift",
+      "line": 27,
       "symbol": "SearchChannel.isLive",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/SearchChannel.swift",
-      "line": 27,
+      "line": 28,
       "symbol": "SearchChannel.tagIds",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/SearchChannel.swift",
-      "line": 28,
+      "line": 29,
       "symbol": "SearchChannel.thumbnailUrl",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/SearchChannel.swift",
-      "line": 29,
+      "line": 30,
       "symbol": "SearchChannel.title",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/SearchChannel.swift",
-      "line": 30,
+      "line": 31,
       "symbol": "SearchChannel.startedAt",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Stream.swift",
-      "line": 10,
-      "symbol": "StreamType",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Stream.swift",
-      "line": 11,
+      "line": 12,
       "symbol": "StreamType.live",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Stream.swift",
-      "line": 12,
+      "line": 13,
       "symbol": "StreamType.vodcast",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Stream.swift",
-      "line": 13,
+      "line": 14,
       "symbol": "StreamType.none",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Stream.swift",
-      "line": 14,
+      "line": 15,
       "symbol": "StreamType.all",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Stream.swift",
-      "line": 17,
-      "symbol": "StreamResponse",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Stream.swift",
-      "line": 18,
+      "line": 19,
       "symbol": "StreamResponse.streams",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Stream.swift",
-      "line": 19,
+      "line": 20,
       "symbol": "StreamResponse.pagination",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Stream.swift",
-      "line": 27,
-      "symbol": "Paginate",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Stream.swift",
-      "line": 28,
-      "symbol": "Paginate.cursor",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Stream.swift",
-      "line": 31,
-      "symbol": "Stream",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Stream.swift",
-      "line": 32,
+      "line": 36,
       "symbol": "Stream.id",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Stream.swift",
-      "line": 33,
+      "line": 37,
       "symbol": "Stream.userId",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Stream.swift",
-      "line": 34,
+      "line": 38,
       "symbol": "Stream.userLogin",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Stream.swift",
-      "line": 35,
+      "line": 39,
       "symbol": "Stream.userName",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Stream.swift",
-      "line": 36,
+      "line": 40,
       "symbol": "Stream.gameId",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Stream.swift",
-      "line": 37,
+      "line": 41,
       "symbol": "Stream.gameName",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Stream.swift",
-      "line": 38,
+      "line": 42,
       "symbol": "Stream.type",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Stream.swift",
-      "line": 39,
+      "line": 43,
       "symbol": "Stream.title",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Stream.swift",
-      "line": 40,
+      "line": 44,
       "symbol": "Stream.viewerCount",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Stream.swift",
-      "line": 41,
+      "line": 45,
       "symbol": "Stream.startedAt",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Stream.swift",
-      "line": 42,
+      "line": 46,
       "symbol": "Stream.language",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Stream.swift",
-      "line": 44,
+      "line": 48,
       "symbol": "Stream.thumbnailUrl",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Stream.swift",
-      "line": 45,
+      "line": 49,
       "symbol": "Stream.tagIds",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Stream.swift",
-      "line": 46,
+      "line": 50,
       "symbol": "Stream.isMature",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -2676,119 +2466,91 @@
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/StreamMarker.swift",
-      "line": 10,
-      "symbol": "StreamMarkerResponse",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/StreamMarker.swift",
-      "line": 11,
+      "line": 12,
       "symbol": "StreamMarkerResponse.streamMarkers",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/StreamMarker.swift",
-      "line": 12,
+      "line": 13,
       "symbol": "StreamMarkerResponse.pagination",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/StreamMarker.swift",
-      "line": 20,
-      "symbol": "Marker",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/StreamMarker.swift",
-      "line": 21,
+      "line": 23,
       "symbol": "Marker.id",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/StreamMarker.swift",
-      "line": 22,
+      "line": 24,
       "symbol": "Marker.createdAt",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/StreamMarker.swift",
-      "line": 23,
+      "line": 25,
       "symbol": "Marker.description",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/StreamMarker.swift",
-      "line": 24,
+      "line": 26,
       "symbol": "Marker.positionSeconds",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/StreamMarker.swift",
-      "line": 25,
+      "line": 27,
       "symbol": "Marker.url",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/StreamMarker.swift",
-      "line": 36,
-      "symbol": "StreamVideo",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/StreamMarker.swift",
-      "line": 37,
+      "line": 40,
       "symbol": "StreamVideo.videoId",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/StreamMarker.swift",
-      "line": 38,
+      "line": 41,
       "symbol": "StreamVideo.markers",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/StreamMarker.swift",
-      "line": 41,
-      "symbol": "StreamMarker",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/StreamMarker.swift",
-      "line": 42,
+      "line": 46,
       "symbol": "StreamMarker.userId",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/StreamMarker.swift",
-      "line": 43,
+      "line": 47,
       "symbol": "StreamMarker.userName",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/StreamMarker.swift",
-      "line": 44,
+      "line": 48,
       "symbol": "StreamMarker.userLogin",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/StreamMarker.swift",
-      "line": 45,
+      "line": 49,
       "symbol": "StreamMarker.videos",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -2851,113 +2613,155 @@
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Team.swift",
-      "line": 10,
-      "symbol": "TeamResponse",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Team.swift",
-      "line": 11,
+      "line": 12,
       "symbol": "TeamResponse.teams",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Team.swift",
-      "line": 18,
-      "symbol": "TeamUser",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Team.swift",
-      "line": 19,
+      "line": 21,
       "symbol": "TeamUser.userId",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Team.swift",
-      "line": 20,
+      "line": 22,
       "symbol": "TeamUser.userName",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Team.swift",
-      "line": 21,
+      "line": 23,
       "symbol": "TeamUser.userLogin",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Team.swift",
-      "line": 24,
-      "symbol": "Team",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Team.swift",
-      "line": 25,
+      "line": 28,
       "symbol": "Team.users",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Team.swift",
-      "line": 26,
+      "line": 29,
       "symbol": "Team.backgroundImageUrl",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Team.swift",
-      "line": 27,
+      "line": 30,
       "symbol": "Team.banner",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Team.swift",
-      "line": 28,
+      "line": 31,
       "symbol": "Team.createdAt",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Team.swift",
-      "line": 29,
+      "line": 32,
       "symbol": "Team.updatedAt",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Team.swift",
-      "line": 30,
+      "line": 33,
       "symbol": "Team.info",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Team.swift",
-      "line": 31,
+      "line": 34,
       "symbol": "Team.thumbnailUrl",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Team.swift",
-      "line": 32,
+      "line": 35,
       "symbol": "Team.teamName",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Team.swift",
-      "line": 33,
+      "line": 36,
       "symbol": "Team.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Team.swift",
+      "line": 37,
+      "symbol": "Team.teamDisplayName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UpdateEntitlement.swift",
+      "line": 12,
+      "symbol": "UpdateEntitlementResponse.data",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UpdateEntitlement.swift",
+      "line": 17,
+      "symbol": "UpdatedEntitlementStatus.success",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UpdateEntitlement.swift",
+      "line": 18,
+      "symbol": "UpdatedEntitlementStatus.invalidID",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UpdateEntitlement.swift",
+      "line": 19,
+      "symbol": "UpdatedEntitlementStatus.notFound",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UpdateEntitlement.swift",
+      "line": 20,
+      "symbol": "UpdatedEntitlementStatus.unauthorized",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UpdateEntitlement.swift",
+      "line": 21,
+      "symbol": "UpdatedEntitlementStatus.updateFailed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UpdateEntitlement.swift",
+      "line": 26,
+      "symbol": "UpdatedEntitlement.ids",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UpdateEntitlement.swift",
+      "line": 27,
+      "symbol": "UpdatedEntitlement.status",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
@@ -3116,92 +2920,78 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserActiveExtension.swift",
-      "line": 10,
-      "symbol": "UserActiveExtensionResponse",
-      "symbol_kind": "source.lang.swift.decl.struct",
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/User.swift",
+      "line": 44,
+      "symbol": "User.createdAt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserActiveExtension.swift",
-      "line": 11,
+      "line": 12,
       "symbol": "UserActiveExtensionResponse.data",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserActiveExtension.swift",
-      "line": 14,
-      "symbol": "ActiveExtensions",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserActiveExtension.swift",
-      "line": 15,
+      "line": 17,
       "symbol": "ActiveExtensions.active",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserActiveExtension.swift",
-      "line": 16,
+      "line": 18,
       "symbol": "ActiveExtensions.id",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserActiveExtension.swift",
-      "line": 17,
+      "line": 19,
       "symbol": "ActiveExtensions.version",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserActiveExtension.swift",
-      "line": 18,
+      "line": 20,
       "symbol": "ActiveExtensions.name",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserActiveExtension.swift",
-      "line": 19,
+      "line": 21,
       "symbol": "ActiveExtensions.x",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserActiveExtension.swift",
-      "line": 20,
+      "line": 22,
       "symbol": "ActiveExtensions.y",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserActiveExtension.swift",
-      "line": 23,
-      "symbol": "ExtensionData",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserActiveExtension.swift",
-      "line": 24,
+      "line": 28,
       "symbol": "ExtensionData.panel",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserActiveExtension.swift",
-      "line": 25,
+      "line": 29,
       "symbol": "ExtensionData.overlay",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserActiveExtension.swift",
-      "line": 26,
+      "line": 30,
       "symbol": "ExtensionData.component",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -3250,91 +3040,70 @@
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserExtension.swift",
-      "line": 10,
-      "symbol": "UserExtensionResponse",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserExtension.swift",
-      "line": 11,
+      "line": 12,
       "symbol": "UserExtensionResponse.extensions",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserExtension.swift",
-      "line": 18,
-      "symbol": "ExtensionType",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserExtension.swift",
-      "line": 19,
+      "line": 21,
       "symbol": "ExtensionType.component",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserExtension.swift",
-      "line": 20,
+      "line": 22,
       "symbol": "ExtensionType.mobile",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserExtension.swift",
-      "line": 21,
+      "line": 23,
       "symbol": "ExtensionType.panel",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserExtension.swift",
-      "line": 22,
+      "line": 24,
       "symbol": "ExtensionType.overlay",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserExtension.swift",
-      "line": 25,
-      "symbol": "Extension",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserExtension.swift",
-      "line": 26,
+      "line": 29,
       "symbol": "Extension.id",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserExtension.swift",
-      "line": 27,
+      "line": 30,
       "symbol": "Extension.version",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserExtension.swift",
-      "line": 28,
+      "line": 31,
       "symbol": "Extension.name",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserExtension.swift",
-      "line": 29,
+      "line": 32,
       "symbol": "Extension.canActivate",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserExtension.swift",
-      "line": 30,
+      "line": 33,
       "symbol": "Extension.type",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -3425,343 +3194,252 @@
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserSubscription.swift",
-      "line": 10,
-      "symbol": "UserSubscriptionResponse",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserSubscription.swift",
-      "line": 11,
+      "line": 12,
       "symbol": "UserSubscriptionResponse.subscribed",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserSubscription.swift",
-      "line": 12,
+      "line": 13,
       "symbol": "UserSubscriptionResponse.error",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserSubscription.swift",
-      "line": 13,
+      "line": 14,
       "symbol": "UserSubscriptionResponse.errorMessage",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserSubscription.swift",
-      "line": 14,
+      "line": 15,
       "symbol": "UserSubscriptionResponse.status",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserSubscription.swift",
-      "line": 24,
-      "symbol": "UserSubscription",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserSubscription.swift",
-      "line": 25,
+      "line": 27,
       "symbol": "UserSubscription.broadcasterId",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserSubscription.swift",
-      "line": 26,
+      "line": 28,
       "symbol": "UserSubscription.broadcasterName",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserSubscription.swift",
-      "line": 27,
+      "line": 29,
       "symbol": "UserSubscription.broadcasterLogin",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserSubscription.swift",
-      "line": 28,
+      "line": 30,
       "symbol": "UserSubscription.isGift",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/UserSubscription.swift",
-      "line": 29,
+      "line": 31,
       "symbol": "UserSubscription.tier",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Video.swift",
-      "line": 10,
-      "symbol": "Viewable",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Video.swift",
-      "line": 11,
+      "line": 12,
       "symbol": "Viewable.public",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Video.swift",
-      "line": 12,
+      "line": 13,
       "symbol": "Viewable.private",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Video.swift",
-      "line": 15,
-      "symbol": "VideoType",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Video.swift",
-      "line": 16,
+      "line": 18,
       "symbol": "VideoType.upload",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Video.swift",
-      "line": 17,
+      "line": 19,
       "symbol": "VideoType.archive",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Video.swift",
-      "line": 18,
+      "line": 20,
       "symbol": "VideoType.highlight",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Video.swift",
-      "line": 19,
+      "line": 21,
       "symbol": "VideoType.all",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Video.swift",
-      "line": 22,
-      "symbol": "MutedSegment",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Video.swift",
-      "line": 27,
-      "symbol": "VideoResponse",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Video.swift",
-      "line": 28,
-      "symbol": "VideoResponse.videos",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Video.swift",
-      "line": 29,
-      "symbol": "VideoResponse.pagination",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Video.swift",
-      "line": 37,
-      "symbol": "Video",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Video.swift",
-      "line": 38,
+      "line": 45,
       "symbol": "Video.id",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Video.swift",
-      "line": 39,
+      "line": 46,
       "symbol": "Video.streamId",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Video.swift",
-      "line": 40,
+      "line": 47,
       "symbol": "Video.userId",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Video.swift",
-      "line": 41,
+      "line": 48,
       "symbol": "Video.userLogin",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Video.swift",
-      "line": 42,
+      "line": 49,
       "symbol": "Video.userName",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Video.swift",
-      "line": 43,
+      "line": 50,
       "symbol": "Video.title",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Video.swift",
-      "line": 44,
+      "line": 51,
       "symbol": "Video.description",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Video.swift",
-      "line": 45,
+      "line": 52,
       "symbol": "Video.createdAt",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Video.swift",
-      "line": 46,
+      "line": 53,
       "symbol": "Video.publishedAt",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Video.swift",
-      "line": 47,
+      "line": 54,
       "symbol": "Video.url",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Video.swift",
-      "line": 48,
+      "line": 55,
       "symbol": "Video.thumbnailUrl",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Video.swift",
-      "line": 49,
+      "line": 56,
       "symbol": "Video.viewable",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Video.swift",
-      "line": 50,
+      "line": 57,
       "symbol": "Video.viewCount",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Video.swift",
-      "line": 51,
+      "line": 58,
       "symbol": "Video.language",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Video.swift",
-      "line": 52,
+      "line": 59,
       "symbol": "Video.type",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Video.swift",
-      "line": 53,
+      "line": 60,
       "symbol": "Video.duration",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/Video.swift",
-      "line": 54,
+      "line": 61,
       "symbol": "Video.mutedSegments",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/WebhookSubscriptionsResponse.swift",
-      "line": 10,
-      "symbol": "WebhookSubscriptionResponse",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/WebhookSubscriptionsResponse.swift",
-      "line": 11,
+      "line": 12,
       "symbol": "WebhookSubscriptionResponse.total",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/WebhookSubscriptionsResponse.swift",
-      "line": 12,
-      "symbol": "WebhookSubscriptionResponse.subscriptions",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/WebhookSubscriptionsResponse.swift",
-      "line": 13,
-      "symbol": "WebhookSubscriptionResponse.pagination",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/WebhookSubscriptionsResponse.swift",
-      "line": 22,
-      "symbol": "WebhookSubscription",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/WebhookSubscriptionsResponse.swift",
-      "line": 23,
+      "line": 27,
       "symbol": "WebhookSubscription.topic",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/WebhookSubscriptionsResponse.swift",
-      "line": 24,
+      "line": 28,
       "symbol": "WebhookSubscription.callback",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Models/WebhookSubscriptionsResponse.swift",
-      "line": 25,
+      "line": 29,
       "symbol": "WebhookSubscription.expiresAt",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -4105,7 +3783,7 @@
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Requests/ClipRequest.swift",
       "line": 16,
-      "symbol": "ClipRequest.init(httpMethod:id:gameID:broadcasterID:hasDelay:)",
+      "symbol": "ClipRequest.init(httpMethod:ids:gameID:broadcasterID:hasDelay:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
@@ -4259,7 +3937,7 @@
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Requests/DropsEntitlementRequest.swift",
       "line": 14,
-      "symbol": "DropsEntitlementRequest.init(id:userID:gameID:after:first:)",
+      "symbol": "DropsEntitlementRequest.init(id:userID:gameID:after:first:fulfillmentStatus:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
@@ -4287,7 +3965,7 @@
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Requests/ExtensionTransactionsRequest.swift",
       "line": 14,
-      "symbol": "ExtensionTransactionsRequest.init(extensionID:id:after:first:)",
+      "symbol": "ExtensionTransactionsRequest.init(extensionID:ids:after:first:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
@@ -4455,7 +4133,7 @@
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Requests/GetStreamMarkersRequest.swift",
       "line": 14,
-      "symbol": "GetStreamMarkersRequest.init(userID:videoID:)",
+      "symbol": "GetStreamMarkersRequest.init(userID:videoID:after:before:first:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
@@ -4559,63 +4237,49 @@
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Requests/RedeemCodeRequest.swift",
-      "line": 10,
-      "symbol": "RedeemCodeRequest",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Requests/RedeemCodeRequest.swift",
-      "line": 11,
+      "line": 12,
       "symbol": "RedeemCodeRequest.url",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Requests/RedeemCodeRequest.swift",
-      "line": 12,
+      "line": 13,
       "symbol": "RedeemCodeRequest.method",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Requests/RedeemCodeRequest.swift",
-      "line": 14,
+      "line": 15,
       "symbol": "RedeemCodeRequest.init(userID:codes:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Requests/ReplaceStreamTagRequest.swift",
-      "line": 10,
-      "symbol": "ReplaceStreamTagRequest",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Requests/ReplaceStreamTagRequest.swift",
-      "line": 11,
+      "line": 12,
       "symbol": "ReplaceStreamTagRequest.url",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Requests/ReplaceStreamTagRequest.swift",
-      "line": 12,
+      "line": 13,
       "symbol": "ReplaceStreamTagRequest.method",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Requests/ReplaceStreamTagRequest.swift",
-      "line": 13,
+      "line": 14,
       "symbol": "ReplaceStreamTagRequest.data",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Requests/ReplaceStreamTagRequest.swift",
-      "line": 15,
+      "line": 16,
       "symbol": "ReplaceStreamTagRequest.init(broadcasterID:tagIDs:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -4707,7 +4371,7 @@
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Requests/StreamRequest.swift",
       "line": 14,
-      "symbol": "StreamRequest.init(after:before:first:gameId:language:userId:userLogin:tagId:)",
+      "symbol": "StreamRequest.init(after:before:first:gameIDs:languages:userIDs:userLogins:tagID:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
@@ -4775,6 +4439,34 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Requests/UpdateDropsEntitlements.swift",
+      "line": 12,
+      "symbol": "UpdateDropsEntitlementsRequest.url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Requests/UpdateDropsEntitlements.swift",
+      "line": 13,
+      "symbol": "UpdateDropsEntitlementsRequest.method",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Requests/UpdateDropsEntitlements.swift",
+      "line": 14,
+      "symbol": "UpdateDropsEntitlementsRequest.data",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Requests/UpdateDropsEntitlements.swift",
+      "line": 16,
+      "symbol": "UpdateDropsEntitlementsRequest.init(entitlementIds:fulfillmentStatus:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Requests/UpdateEventSubscriptionRequest.swift",
       "line": 12,
       "symbol": "UpdateEventSubscriptionRequest.url",
@@ -4804,28 +4496,28 @@
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Requests/UpdateUserExtensionsRequest.swift",
-      "line": 12,
+      "line": 13,
       "symbol": "UpdateUserExtensionsRequest.url",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Requests/UpdateUserExtensionsRequest.swift",
-      "line": 13,
+      "line": 14,
       "symbol": "UpdateUserExtensionsRequest.method",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Requests/UpdateUserExtensionsRequest.swift",
-      "line": 14,
+      "line": 15,
       "symbol": "UpdateUserExtensionsRequest.data",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Requests/UpdateUserExtensionsRequest.swift",
-      "line": 16,
+      "line": 17,
       "symbol": "UpdateUserExtensionsRequest.init(data:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -4918,20 +4610,6 @@
       "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Requests/UserUpdateRequest.swift",
       "line": 15,
       "symbol": "UserUpdateRequest.init(description:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Requests/VideoRequest.swift",
-      "line": 12,
-      "symbol": "VideoRequest.url",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ericsMac/Documents/iOS Dev/cocoapods/TwitchAPIWrapper/Lib/Requests/VideoRequest.swift",
-      "line": 14,
-      "symbol": "VideoRequest.init(id:userID:gameID:after:before:first:language:period:sort:type:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>DateRange Structure Reference</title>
+    <title>UpdatedEntitlementStatus Enumeration Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -13,11 +13,11 @@
     <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
-    <a name="//apple_ref/swift/Struct/DateRange" class="dashAnchor"></a>
-    <a title="DateRange Structure Reference"></a>
+    <a name="//apple_ref/swift/Enum/UpdatedEntitlementStatus" class="dashAnchor"></a>
+    <a title="UpdatedEntitlementStatus Enumeration Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">TwitchAPIWrapper 0.1.0 Docs</a> (11% documented)</p>
+        <p><a href="../index.html">TwitchAPIWrapper 0.1.0 Docs</a> (20% documented)</p>
         <p class="header-right">
           <form role="search" action="../search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
@@ -29,7 +29,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">TwitchAPIWrapper Reference</a>
         <img id="carat" src="../img/carat.png" />
-        DateRange Structure Reference
+        UpdatedEntitlementStatus Enumeration Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -62,6 +62,9 @@
                 <a href="../Enums/CodeSuccessStatus.html">CodeSuccessStatus</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Enums/EntitlementFulfillmentStatus.html">EntitlementFulfillmentStatus</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Enums/ExtensionType.html">ExtensionType</a>
               </li>
               <li class="nav-group-task">
@@ -84,6 +87,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/StreamType.html">StreamType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/UpdatedEntitlementStatus.html">UpdatedEntitlementStatus</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/UserType.html">UserType</a>
@@ -261,19 +267,22 @@
                 <a href="../Structs/CustomRewardRequest.html">CustomRewardRequest</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/DateRange.html">DateRange</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Structs/DeleteEventSubSubscriptionRequest.html">DeleteEventSubSubscriptionRequest</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/DeleteVideoRequest.html">DeleteVideoRequest</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Structs/DeleteVideoResponse.html">DeleteVideoResponse</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Structs/DropsEntitlementRequest.html">DropsEntitlementRequest</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs.html#/s:16TwitchAPIWrapper17EmptyPostResponseV">EmptyPostResponse</a>
+                <a href="../Structs/EVDateRange.html">EVDateRange</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:16TwitchAPIWrapper13EmptyResponseV">EmptyResponse</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/Entitlement.html">Entitlement</a>
@@ -510,10 +519,19 @@
                 <a href="../Structs/UnblockUserRequest.html">UnblockUserRequest</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Structs/UpdateDropsEntitlementsRequest.html">UpdateDropsEntitlementsRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/UpdateEntitlementResponse.html">UpdateEntitlementResponse</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Structs/UpdateEventSubscriptionRequest.html">UpdateEventSubscriptionRequest</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/UpdateUserExtensionsRequest.html">UpdateUserExtensionsRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/UpdatedEntitlement.html">UpdatedEntitlement</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/User.html">User</a>
@@ -582,15 +600,15 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>DateRange</h1>
+            <h1>UpdatedEntitlementStatus</h1>
               <div class="declaration">
                 <div class="language">
                   
-                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">DateRange</span> <span class="p">:</span> <span class="kt">Codable</span><span class="p">,</span> <span class="kt">Equatable</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">UpdatedEntitlementStatus</span> <span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="kt">Codable</span></code></pre>
 
                 </div>
               </div>
-            <p>Undocumented</p>
+            <p>Represents the status of the updated entitlements as part of the <code>UpdateEntitlementsResponse</code> object</p>
 
           </section>
           <section class="section task-group-section">
@@ -599,9 +617,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:16TwitchAPIWrapper9DateRangeV9startedAt10Foundation0C0Vvp"></a>
-                    <a name="//apple_ref/swift/Property/startedAt" class="dashAnchor"></a>
-                    <a class="token" href="#/s:16TwitchAPIWrapper9DateRangeV9startedAt10Foundation0C0Vvp">startedAt</a>
+                    <a name="/s:16TwitchAPIWrapper24UpdatedEntitlementStatusO7successyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/success" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16TwitchAPIWrapper24UpdatedEntitlementStatusO7successyA2CmF">success</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -616,7 +634,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">startedAt</span><span class="p">:</span> <span class="kt">Date</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">success</span> <span class="o">=</span> <span class="s">"SUCCESS"</span></code></pre>
 
                         </div>
                       </div>
@@ -626,9 +644,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:16TwitchAPIWrapper9DateRangeV7endedAt10Foundation0C0Vvp"></a>
-                    <a name="//apple_ref/swift/Property/endedAt" class="dashAnchor"></a>
-                    <a class="token" href="#/s:16TwitchAPIWrapper9DateRangeV7endedAt10Foundation0C0Vvp">endedAt</a>
+                    <a name="/s:16TwitchAPIWrapper24UpdatedEntitlementStatusO9invalidIDyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/invalidID" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16TwitchAPIWrapper24UpdatedEntitlementStatusO9invalidIDyA2CmF">invalidID</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -643,7 +661,88 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">endedAt</span><span class="p">:</span> <span class="kt">Date</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">invalidID</span> <span class="o">=</span> <span class="s">"INVALID_ID"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16TwitchAPIWrapper24UpdatedEntitlementStatusO8notFoundyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/notFound" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16TwitchAPIWrapper24UpdatedEntitlementStatusO8notFoundyA2CmF">notFound</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">notFound</span> <span class="o">=</span> <span class="s">"NOT_FOUND"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16TwitchAPIWrapper24UpdatedEntitlementStatusO12unauthorizedyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/unauthorized" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16TwitchAPIWrapper24UpdatedEntitlementStatusO12unauthorizedyA2CmF">unauthorized</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">unauthorized</span> <span class="o">=</span> <span class="s">"UNAUTHORIZED"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16TwitchAPIWrapper24UpdatedEntitlementStatusO12updateFailedyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/updateFailed" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16TwitchAPIWrapper24UpdatedEntitlementStatusO12updateFailedyA2CmF">updateFailed</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">updateFailed</span> <span class="o">=</span> <span class="s">"UPDATE_FAILED"</span></code></pre>
 
                         </div>
                       </div>
@@ -655,7 +754,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="https://github.com/epv44/TwitchAPIWrapper" target="_blank" rel="external">epv44</a>. All rights reserved. (Last updated: 2021-05-25)</p>
+          <p>&copy; 2021 <a class="link" href="https://github.com/epv44/TwitchAPIWrapper" target="_blank" rel="external">epv44</a>. All rights reserved. (Last updated: 2021-08-04)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
